@@ -1,0 +1,1039 @@
+This formula doesn't require compiling.
+==> Determining autoconf bottle rebuild...
+==> Bottling autoconf-2.69.x86_64_linux.bottle.tar.gz...
+./autoconf-2.69.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "2ecb84dddcd30ecf92532fffe41f17fdfb4a1c17ae3701c3b486a29febfcf26a" => :x86_64_linux
+  end
+==> Determining automake bottle rebuild...
+==> Bottling automake-1.15.1.x86_64_linux.bottle.1.tar.gz...
+./automake-1.15.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f5d9f6da6cf1ef24b013028d62af52e178160c0ab34a2fe31676eb6bda752d84" => :x86_64_linux
+  end
+==> Determining berkeley-db bottle rebuild...
+==> Bottling berkeley-db-6.2.32.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if berkeley-db-6.2.32.x86_64_linux.bottle.1.tar.gz is relocatable...
+./berkeley-db-6.2.32.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "69e0672799572147d4d610062bad09fd15d2209d4dd6d4e38b5ca94ad4a53f50" => :x86_64_linux
+  end
+==> Determining berkeley-db@4 bottle rebuild...
+==> Bottling berkeley-db@4-4.8.30.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if berkeley-db@4-4.8.30.x86_64_linux.bottle.1.tar.gz is relocatable...
+./berkeley-db@4-4.8.30.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "248e6072a92c01570c7a3c16a5d0dffbc184a7bfba864f8998c3edb5c095f369" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/bigreqsproto bottle rebuild...
+==> Bottling bigreqsproto-1.1.2.x86_64_linux.bottle.1.tar.gz...
+./bigreqsproto-1.1.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d98cf371d55704bcaac19cf048859aaa155374093621c3ac5f1e977c9bfe1e48" => :x86_64_linux
+  end
+==> Determining binutils bottle rebuild...
+==> Bottling binutils-2.29.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if binutils-2.29.x86_64_linux.bottle.1.tar.gz is relocatable...
+./binutils-2.29.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "bab35991df0eb660d4c3ce69e6a5ddc69dfc09990bd8bca1146059de9a12b3b3" => :x86_64_linux
+  end
+==> Determining bzip2 bottle rebuild...
+==> Bottling bzip2-1.0.6_1.x86_64_linux.bottle.1.tar.gz...
+./bzip2-1.0.6_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "162151597cc18bb39d668e201731f6fc2228290cc2338a2655a4f5879bc430ea" => :x86_64_linux
+  end
+==> Determining cairo bottle rebuild...
+==> Bottling cairo-1.14.10_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cairo-1.14.10_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cairo-1.14.10_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "0ce4f9e3e7cbfe037ca54895e3162ff3611e8a9367b94e4d7abb62d51f38a26d" => :x86_64_linux
+  end
+==> Determining cmake bottle rebuild...
+==> Bottling cmake-3.9.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cmake-3.9.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cmake-3.9.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a13548b74724f23561d626529be04b93feb40ff2a5077d283264e8284168994b" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/compositeproto bottle rebuild...
+==> Bottling compositeproto-0.4.2.x86_64_linux.bottle.1.tar.gz...
+./compositeproto-0.4.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f6edb3f5d0f9119dadd2297340570e603cd85fff470a2c6b8edca080d864d735" => :x86_64_linux
+  end
+==> Determining cunit bottle rebuild...
+==> Bottling cunit-2.1-3.x86_64_linux.bottle.1.tar.gz...
+./cunit-2.1-3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "908c64966fd111830bf40fe0e3816f5bdb249da0e263e506a2e6055aebce7e97" => :x86_64_linux
+  end
+==> Determining curl bottle rebuild...
+==> Bottling curl-7.54.1.x86_64_linux.bottle.1.tar.gz...
+./curl-7.54.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "dd03d9be6f6e6b2447d0ed8dbcd73998f215c4bafebb4dd9da4ffd0aed4e672e" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/damageproto bottle rebuild...
+==> Bottling damageproto-1.2.1.x86_64_linux.bottle.1.tar.gz...
+./damageproto-1.2.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d54a20bc5c5cae3d8bbc95d57d3dc429ae4d2f5ec221114786a9c59014f38c4e" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/dmxproto bottle rebuild...
+==> Bottling dmxproto-2.3.1.x86_64_linux.bottle.1.tar.gz...
+./dmxproto-2.3.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "378ca2ca6abe8deebe69e1688e6157e2c0e3cd433cc14452fed7eae8e3023c80" => :x86_64_linux
+  end
+==> Determining docker-machine bottle rebuild...
+==> Bottling docker-machine-0.12.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if docker-machine-0.12.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./docker-machine-0.12.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "67ae5177bcede9b5652a4f2589a16837e7f246c982135790fbaedde5016331bf" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/dri2proto bottle rebuild...
+==> Bottling dri2proto-2.8.x86_64_linux.bottle.1.tar.gz...
+./dri2proto-2.8.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "b7ad3ab6d3d992418736937c027264668d2d1645af9b872d8b3107d5138ed325" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/dri3proto bottle rebuild...
+==> Bottling dri3proto-1.0.x86_64_linux.bottle.1.tar.gz...
+./dri3proto-1.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "acc43fc33f6a2769c8474c9a695788298a2cb1a25072602263292c455f1c77ce" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/fixesproto bottle rebuild...
+==> Bottling fixesproto-5.0.x86_64_linux.bottle.1.tar.gz...
+./fixesproto-5.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "cfd264993a8901f6a9c3f17d096ce5a38359fa94111ed25877e4d90c60024dd9" => :x86_64_linux
+  end
+==> Determining flac bottle rebuild...
+==> Bottling flac-1.3.2.x86_64_linux.bottle.1.tar.gz...
+./flac-1.3.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "9aefc2f2006f6017f4ae1e182de99703601e53d8abfab2d94e26d04c1fe99fa0" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/fontsproto bottle rebuild...
+==> Bottling fontsproto-2.1.3.x86_64_linux.bottle.1.tar.gz...
+./fontsproto-2.1.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "ac8c558498ca1c8f6f1431e803874b1c8beb950b2f41e343cbc4a3b16869d57e" => :x86_64_linux
+  end
+==> Determining freetype bottle rebuild...
+==> Bottling freetype-2.8.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if freetype-2.8.x86_64_linux.bottle.1.tar.gz is relocatable...
+./freetype-2.8.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "9777db996d34d5f77ab4dc613a9ac944c6f8bb5ed951dde0b1e5d7a7dbcfa30c" => :x86_64_linux
+  end
+==> Determining gcc bottle rebuild...
+==> Bottling gcc-5.3.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gcc-5.3.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gcc-5.3.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "5086b61725a5d1733082c5cffe87f3dc22b12a160d598a5fc85d64688a679a0b" => :x86_64_linux
+  end
+==> Determining gdbm bottle rebuild...
+==> Bottling gdbm-1.13_1.x86_64_linux.bottle.1.tar.gz...
+./gdbm-1.13_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "63c856fcbb1a633a200a92854a5f6a9e71ff19af5b317f18c73f21ec4c687f6d" => :x86_64_linux
+  end
+==> Determining glib bottle rebuild...
+==> Bottling glib-2.52.3_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if glib-2.52.3_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./glib-2.52.3_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "9caeb5f897dacfb6d9c60d360814b67ba70bfc89e8dfbc346c24a58ba35ad9f8" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/glproto bottle rebuild...
+==> Bottling glproto-1.4.17.x86_64_linux.bottle.1.tar.gz...
+./glproto-1.4.17.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "26190545b9be9f20e89de2b0d021161bf366a03fcae141051b1d0f9af2d01c0a" => :x86_64_linux
+  end
+==> Determining gmp bottle rebuild...
+==> Bottling gmp-6.1.1.x86_64_linux.bottle.tar.gz...
+./gmp-6.1.1.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "f80de6ec95dc620e7f8bd0c45548c81b5c61c8c2d23dce336c459511f9e5b804" => :x86_64_linux
+  end
+==> Determining gnu-sed bottle rebuild...
+==> Bottling gnu-sed-4.4_1.x86_64_linux.bottle.1.tar.gz...
+./gnu-sed-4.4_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "81f45bcd6466721c90889101ae0002cce0e136c9a83f22611ed4438b9e445cfb" => :x86_64_linux
+  end
+==> Determining gpatch bottle rebuild...
+==> Bottling gpatch-2.7.5.x86_64_linux.bottle.1.tar.gz...
+./gpatch-2.7.5.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "70f131c266b994aff9a0b5555e9c7d01c1a900c403fc63240a920f00af9f840e" => :x86_64_linux
+  end
+==> Determining gperf bottle rebuild...
+==> Bottling gperf-3.1.x86_64_linux.bottle.1.tar.gz...
+./gperf-3.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "2519166739f8cc6ca263d997cf907308c8f8ba31ddaf324562e49b88f27dd93e" => :x86_64_linux
+  end
+This formula doesn't require compiling.
+==> Determining hub bottle rebuild...
+==> Bottling hub-2.2.9.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if hub-2.2.9.x86_64_linux.bottle.1.tar.gz is relocatable...
+./hub-2.2.9.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "c1cf8b5cd960f6bae3e735044b0ecb371d81729ab4635778b0e1f789056de524" => :x86_64_linux
+  end
+==> Determining icu4c bottle rebuild...
+==> Bottling icu4c-58.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if icu4c-58.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./icu4c-58.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1cce1b6809647045a6c92057b48856e485df5791a50a8ceca8989ef78d9c4868" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/inputproto bottle rebuild...
+==> Bottling inputproto-2.3.2.x86_64_linux.bottle.1.tar.gz...
+./inputproto-2.3.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "5be1d9a2647d657147403ee6038e0b3e6612d2ce33bfea214f85330da9594d8f" => :x86_64_linux
+  end
+==> Determining isl bottle rebuild...
+==> Bottling isl-0.15.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if isl-0.15.x86_64_linux.bottle.1.tar.gz is relocatable...
+./isl-0.15.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0456e7448c467b9359168b73fc8a10fd03a101ddffab7d33a7ed5d1ba017501d" => :x86_64_linux
+  end
+==> Determining json-c bottle rebuild...
+==> Bottling json-c-0.12.x86_64_linux.bottle.tar.gz...
+./json-c-0.12.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "6565fc465fd087ecf36f0b9f1903fb303710dd1e62c7f27c41832ed44ed86c66" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/kbproto bottle rebuild...
+==> Bottling kbproto-1.0.7.x86_64_linux.bottle.1.tar.gz...
+./kbproto-1.0.7.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "7baa1dc4f6b0c23604ca1b68c71f82507c71fafcdf694fc8fff62ac5a4c9f331" => :x86_64_linux
+  end
+==> Determining libbsd bottle rebuild...
+==> Bottling libbsd-0.8.3.x86_64_linux.bottle.1.tar.gz...
+./libbsd-0.8.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "70570fac0a9b1dec3e49f942bbec158166636ff9846cec8ede838cb7ee000988" => :x86_64_linux
+  end
+==> Determining libcap bottle rebuild...
+==> Bottling libcap-2.25.x86_64_linux.bottle.1.tar.gz...
+./libcap-2.25.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "35151cce4f2848e9a6e8a4c985f1021f0358347b9ed239c504115773546269ff" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libdmx bottle rebuild...
+==> Bottling libdmx-1.1.3.x86_64_linux.bottle.1.tar.gz...
+./libdmx-1.1.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1acd0c37e625987f16ad59768742ad9f23cc90043c98d5e3356b3ab4a121bafb" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libdrm bottle rebuild...
+==> Bottling libdrm-2.4.82.x86_64_linux.bottle.1.tar.gz...
+./libdrm-2.4.82.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "4d1c0bf93ff3ba1a0d937ae7bf06eb68d3266a0ad94e26b94a8f325357ace892" => :x86_64_linux
+  end
+==> Determining libedit bottle rebuild...
+==> Bottling libedit-20170329-3.1.x86_64_linux.bottle.1.tar.gz...
+./libedit-20170329-3.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "9831f2f0debfc8e18ae626edcd9682c1ea53f80c8a0b03432ac402aa931b9e0a" => :x86_64_linux
+  end
+==> Determining libelf bottle rebuild...
+==> Bottling libelf-0.8.13_1.x86_64_linux.bottle.1.tar.gz...
+./libelf-0.8.13_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "4450240a72425a052ac67e60afe86dc12e4b19f1314c24bb5466581afa507963" => :x86_64_linux
+  end
+==> Determining libffi bottle rebuild...
+==> Bottling libffi-3.2.1.x86_64_linux.bottle.1.tar.gz...
+./libffi-3.2.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "e10fc1ec63880aa00b0ecc2136f1025b8b0807ba81aecd083b6aec96403f3212" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libfontenc bottle rebuild...
+==> Bottling libfontenc-1.1.3.x86_64_linux.bottle.1.tar.gz...
+./libfontenc-1.1.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "4692a025547288a2f2128ea7ff6a65c9ee46eb6c76bb556671869181031792ee" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libfs bottle rebuild...
+==> Bottling libfs-1.0.7.x86_64_linux.bottle.1.tar.gz...
+./libfs-1.0.7.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "6713efd19f937a8df403204410236b0b5396b6bd7bcc72bcb4f38d09d88d02db" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libice bottle rebuild...
+==> Bottling libice-1.0.9.x86_64_linux.bottle.1.tar.gz...
+./libice-1.0.9.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "85a8db2c5ae8f7e9cb0845b923793d1079089dd1c53a423b019dcee7d486eb96" => :x86_64_linux
+  end
+==> Determining libmpc bottle rebuild...
+==> Bottling libmpc-1.0.3_1.x86_64_linux.bottle.1.tar.gz...
+./libmpc-1.0.3_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "718bf85dea284c0bda4df3db9f8ea6d19c1d4c497f3ee138aafe1861bbc1c13c" => :x86_64_linux
+  end
+==> Determining libogg bottle rebuild...
+==> Bottling libogg-1.3.2.x86_64_linux.bottle.1.tar.gz...
+./libogg-1.3.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "7c01cdc47292373def0ad673b19b05e9c2f6da11b6eb33081f29ee68fb0242a3" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libomxil-bellagio bottle rebuild...
+==> Bottling libomxil-bellagio-0.9.3.x86_64_linux.bottle.1.tar.gz...
+./libomxil-bellagio-0.9.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "efb88708b69ade3ef3e1b7daff712d6da0f21865e2b46ec27563fb960db56ba5" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libpciaccess bottle rebuild...
+==> Bottling libpciaccess-0.13.5.x86_64_linux.bottle.1.tar.gz...
+./libpciaccess-0.13.5.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "47f9ca1ea14f946629cbc40ec0b300d33cc747348a6aaf070c7c788455df011f" => :x86_64_linux
+  end
+==> Determining libproxy bottle rebuild...
+==> Bottling libproxy-0.4.15.x86_64_linux.bottle.1.tar.gz...
+./libproxy-0.4.15.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "ea97199c07cacef3c0fcc81ac7ffa7da277f629c07e6bf57cf6124774deb1381" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libpthread-stubs bottle rebuild...
+==> Bottling libpthread-stubs-0.3.x86_64_linux.bottle.1.tar.gz...
+./libpthread-stubs-0.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "79afd7bcf1a35a624d6c9775c858d67684b10110ca837662d063bd4f5ea7a627" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libsha1 bottle rebuild...
+==> Bottling libsha1-0.3.x86_64_linux.bottle.1.tar.gz...
+./libsha1-0.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "bff733cc1229137c13a10fd646c94e8145aff24b56f5839f26d0b8ca9b3ef332" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libsm bottle rebuild...
+==> Bottling libsm-1.2.2.x86_64_linux.bottle.1.tar.gz...
+./libsm-1.2.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "da39a4b28bab106c21cc4d5a747d74003095d7a3f4456d91fea57cc526904826" => :x86_64_linux
+  end
+==> Determining libsndfile bottle rebuild...
+==> Bottling libsndfile-1.0.28.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libsndfile-1.0.28.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libsndfile-1.0.28.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "c9de1036616072a4de2d71d5cb4cf4b5f8d0721b6019ac0ea1626f813f1b4e26" => :x86_64_linux
+  end
+==> Determining libsoxr bottle rebuild...
+==> Bottling libsoxr-0.1.2.x86_64_linux.bottle.1.tar.gz...
+./libsoxr-0.1.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a1a19f5382df494772e6c89c282f0f36ebbc338f5ad68c6a38966a4ea5863fa2" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libva bottle rebuild...
+==> Bottling libva-1.7.3.x86_64_linux.bottle.1.tar.gz...
+./libva-1.7.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "1d92da3928bf4d57f99102e47d66e4c252257341cdb4697f6f866c84d5048f15" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libvdpau bottle rebuild...
+==> Bottling libvdpau-1.1.1.x86_64_linux.bottle.1.tar.gz...
+./libvdpau-1.1.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "c0bfd2293a747c6973c5851add13bdaadc8fd67f43886785d09b84ceda7fc96f" => :x86_64_linux
+  end
+==> Determining libvorbis bottle rebuild...
+==> Bottling libvorbis-1.3.5_1.x86_64_linux.bottle.1.tar.gz...
+./libvorbis-1.3.5_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "b4d806f737be2a6c7b98a1c66ad96a532c35976590a48aa728938814fdfcaf64" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libx11 bottle rebuild...
+==> Bottling libx11-1.6.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libx11-1.6.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libx11-1.6.5.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "2c6286dac97fe3219a4b12ae2e9f40268ce90158f32574bd7e6cb608bc25af2c" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxau bottle rebuild...
+==> Bottling libxau-1.0.8.x86_64_linux.bottle.1.tar.gz...
+./libxau-1.0.8.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "b18171c8b269bd2cc58ade471d9f2ba53d87b3e6146200f6ff24672f51e7565b" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxaw bottle rebuild...
+==> Bottling libxaw-1.0.13.x86_64_linux.bottle.1.tar.gz...
+./libxaw-1.0.13.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "67e4ce075c898c56437a8bc69b6bbb5a311a9d419f1090d1b7def0019d9e7ef5" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxcb bottle rebuild...
+==> Bottling libxcb-1.12.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libxcb-1.12.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libxcb-1.12.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "3aa9403f1e33f9553adca853d1b9964f75332965ce594da6830e572e6689890b" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxcomposite bottle rebuild...
+==> Bottling libxcomposite-0.4.4.x86_64_linux.bottle.1.tar.gz...
+./libxcomposite-0.4.4.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "465661667193ef8374ad6ba42b9e0f099d75ccb7e644bf32b0526488d4b46d85" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxcursor bottle rebuild...
+==> Bottling libxcursor-1.1.14.x86_64_linux.bottle.1.tar.gz...
+./libxcursor-1.1.14.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "d47a8eb84daed8f0ab1d8d340fd433e1f17a1005e7616bc3def7a1086bf049e2" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxdamage bottle rebuild...
+==> Bottling libxdamage-1.1.4.x86_64_linux.bottle.1.tar.gz...
+./libxdamage-1.1.4.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f81dce8177f480c237c17f7a5836328863e93a0ae602d62ef252484343dd419e" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxdmcp bottle rebuild...
+==> Bottling libxdmcp-1.1.2.x86_64_linux.bottle.1.tar.gz...
+./libxdmcp-1.1.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "6bffcff89741972da89038632d255a03b51c7df25ed96ec925abaf0e40bc0aad" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxext bottle rebuild...
+==> Bottling libxext-1.3.3.x86_64_linux.bottle.1.tar.gz...
+./libxext-1.3.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "7f3187771125b485acdbe82c79568fb30e02f5539a2107b433ad03f41b75d748" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxfixes bottle rebuild...
+==> Bottling libxfixes-5.0.3.x86_64_linux.bottle.1.tar.gz...
+./libxfixes-5.0.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1c4ea5c65e29d711cebf172b34ce50c258c09acb54a8ba398925dc6c7bfe4aea" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxfont bottle rebuild...
+==> Bottling libxfont-1.5.2.x86_64_linux.bottle.tar.gz...
+./libxfont-1.5.2.x86_64_linux.bottle.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    sha256 "debf9274dd7d6a87a89fb2710f7f04271e479601d74f514b36ae1276d9f7ea83" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxft bottle rebuild...
+==> Bottling libxft-2.3.2.x86_64_linux.bottle.1.tar.gz...
+./libxft-2.3.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a4dda79e13a203c3532231d247908263a6dffd3962d1dad21c729e519d6f88f4" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxi bottle rebuild...
+==> Bottling libxi-1.7.9.x86_64_linux.bottle.1.tar.gz...
+./libxi-1.7.9.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0c265132b05a197a7af1b6357f099fdf099d5b638c8fde721e1e911abb11f7c0" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxinerama bottle rebuild...
+==> Bottling libxinerama-1.1.3.x86_64_linux.bottle.1.tar.gz...
+./libxinerama-1.1.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a4c615cd9bcbaca280ed0d7191ca8cb15aa4d44c8b67467fece326374bff54de" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxkbfile bottle rebuild...
+==> Bottling libxkbfile-1.0.9.x86_64_linux.bottle.1.tar.gz...
+./libxkbfile-1.0.9.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d40e4bc498bdf3578ba422e8e0ed470ae8c8d6f516db35c844bbce5695d7567d" => :x86_64_linux
+  end
+==> Determining libxml2 bottle rebuild...
+==> Bottling libxml2-2.9.4_3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libxml2-2.9.4_3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libxml2-2.9.4_3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "d93eb710605ec2848bb02591bbe8a120aeaa1a21517d0eab6c9d9b69b401d791" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxmu bottle rebuild...
+==> Bottling libxmu-1.1.2.x86_64_linux.bottle.tar.gz...
+./libxmu-1.1.2.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "b023efa8677829e547e8e06426889d73d864ff85b7da9ba6e8d4d36742571e98" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxpm bottle rebuild...
+==> Bottling libxpm-3.5.12.x86_64_linux.bottle.1.tar.gz...
+./libxpm-3.5.12.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "24827fc1dec826777ae5ef897e1434a6864c2c36602636562c019b7965088432" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxrandr bottle rebuild...
+==> Bottling libxrandr-1.5.1.x86_64_linux.bottle.1.tar.gz...
+./libxrandr-1.5.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "88fd61486cebe29903db21e63c12ece726cfe3f8e04e0bdde041048c05f6fec9" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxrender bottle rebuild...
+==> Bottling libxrender-0.9.10.x86_64_linux.bottle.1.tar.gz...
+./libxrender-0.9.10.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "96423622474171181367c6f057d3fd1e46509bf7d9062906b84c5f5f442b0fe9" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxres bottle rebuild...
+==> Bottling libxres-1.0.7.x86_64_linux.bottle.1.tar.gz...
+./libxres-1.0.7.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "583f5e50b5a09d7138594a6b5e4e5e04211d62a58b4045ea2817d8b21ee0ba65" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxscrnsaver bottle rebuild...
+==> Bottling libxscrnsaver-1.2.2.x86_64_linux.bottle.1.tar.gz...
+./libxscrnsaver-1.2.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "2b137357dde299fc89fef5bf0927e3c6765704ac73f46045c6d2edf32c20d4bb" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxshmfence bottle rebuild...
+==> Bottling libxshmfence-1.2.x86_64_linux.bottle.1.tar.gz...
+./libxshmfence-1.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "c94edc00b337796bd4e6e0188c9d95e40d3183627e77b4e5563cb2325db572b5" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxt bottle rebuild...
+==> Bottling libxt-1.1.5.x86_64_linux.bottle.tar.gz...
+./libxt-1.1.5.x86_64_linux.bottle.tar.gz
+  bottle do
+    sha256 "5310bbaee996d9aaf87b1d579f16417fc884d066d80b531900c14124229cf56f" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxtst bottle rebuild...
+==> Bottling libxtst-1.2.3.x86_64_linux.bottle.1.tar.gz...
+./libxtst-1.2.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f7d607009991852f733ec4b9741e25bf3de80fe6977bbf36073fd622d0b5b8db" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxv bottle rebuild...
+==> Bottling libxv-1.0.11.x86_64_linux.bottle.1.tar.gz...
+./libxv-1.0.11.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1447b0e4f3d09ccd075889c982d22bfec5ce691e02611bff0c888d7a0c8ab647" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxvmc bottle rebuild...
+==> Bottling libxvmc-1.0.10.x86_64_linux.bottle.1.tar.gz...
+./libxvmc-1.0.10.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "0b181fdd57e3c369e994c381755e4214239282b48ec87939cf80fd34cb9c2ce2" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxxf86dga bottle rebuild...
+==> Bottling libxxf86dga-1.1.4.x86_64_linux.bottle.1.tar.gz...
+./libxxf86dga-1.1.4.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "abf5ad218159a66959175e57b820dc2a31e354606ce5f2640d67a4c7453eb491" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/libxxf86vm bottle rebuild...
+==> Bottling libxxf86vm-1.1.4.x86_64_linux.bottle.1.tar.gz...
+./libxxf86vm-1.1.4.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "3d4ece4aef7e1087a759c38d92ff83e126fc6d4c719f7b08a1d6eac30c33eca9" => :x86_64_linux
+  end
+==> Determining libyaml bottle rebuild...
+==> Bottling libyaml-0.1.7.x86_64_linux.bottle.1.tar.gz...
+./libyaml-0.1.7.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d271992c83d6bf8a0a99f88e9d3b631e9a71000bafccdee70e80e9c38a569b7a" => :x86_64_linux
+  end
+==> Determining m4 bottle rebuild...
+==> Bottling m4-1.4.18.x86_64_linux.bottle.1.tar.gz...
+./m4-1.4.18.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "58508faf0832fe085ab9ce9ddb72dde43915ebf2b663422d5ccc064810e062c6" => :x86_64_linux
+  end
+This formula doesn't require compiling.
+==> Determining linuxbrew/xorg/mesa bottle rebuild...
+==> Bottling mesa-17.0.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if mesa-17.0.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./mesa-17.0.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "757e5789e9a2c11ea3b86d8f96a30ce411249e0d46b64db942f665ddb4ba6908" => :x86_64_linux
+  end
+==> Determining mpfr bottle rebuild...
+==> Bottling mpfr-3.1.5.x86_64_linux.bottle.1.tar.gz...
+./mpfr-3.1.5.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0af393834f8deec2e82c9948ae5df485c58dbecee93ba58ca3782c090500d5ee" => :x86_64_linux
+  end
+==> Determining ncurses bottle rebuild...
+==> Bottling ncurses-6.0_3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ncurses-6.0_3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ncurses-6.0_3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "5742b26cb092dcdd712567ab0f281bdb4a66895dfc48cb8d4d8218d60428e818" => :x86_64_linux
+  end
+==> Determining nmap bottle rebuild...
+==> Bottling nmap-7.60.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if nmap-7.60.x86_64_linux.bottle.1.tar.gz is relocatable...
+./nmap-7.60.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "fc337c6550a377fb7e529da2598fe71ab3398c6e78ae5a4ff8736cd893ff4d4e" => :x86_64_linux
+  end
+==> Determining node bottle rebuild...
+==> Bottling node-8.2.1.x86_64_linux.bottle.1.tar.gz...
+==> Determining openssl bottle rebuild...
+==> Bottling openssl-1.0.2l.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if openssl-1.0.2l.x86_64_linux.bottle.1.tar.gz is relocatable...
+==> Determining openssl@1.1 bottle rebuild...
+==> Bottling openssl@1.1-1.1.0f.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if openssl@1.1-1.1.0f.x86_64_linux.bottle.1.tar.gz is relocatable...
+./openssl@1.1-1.1.0f.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "6f431a1e618a610ddd8c7a0c21ae9d88039662a9803ced404291a5deffbd66e8" => :x86_64_linux
+  end
+==> Determining patchelf bottle rebuild...
+==> Bottling patchelf-0.9_1.x86_64_linux.bottle.1.tar.gz...
+./patchelf-0.9_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "c1d8a186b8d359d67f7cb6ce77559af8e5cb9475f74cc002084254318215e738" => :x86_64_linux
+  end
+==> Determining pcre bottle rebuild...
+==> Bottling pcre-8.41.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if pcre-8.41.x86_64_linux.bottle.1.tar.gz is relocatable...
+./pcre-8.41.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "49a92029c19fbe790859ff928f4dec91372cb6f8b47718f818e88c315fa75a70" => :x86_64_linux
+  end
+==> Determining perl bottle rebuild...
+==> Bottling perl-5.26.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if perl-5.26.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./perl-5.26.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "5d952887f571532fde567f2e436fa6b2ea8b805ba691d3e277cde49b74c811df" => :x86_64_linux
+  end
+==> Determining pixman bottle rebuild...
+==> Bottling pixman-0.34.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if pixman-0.34.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./pixman-0.34.0_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "eb49a649116264d4aaf10dce257fdaa66e93f20de5ff95af7559c791417dd410" => :x86_64_linux
+  end
+==> Determining pkg-config bottle rebuild...
+==> Bottling pkg-config-0.29.2.x86_64_linux.bottle.1.tar.gz...
+./pkg-config-0.29.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "2dbec155d1173532dce698ec37f7036d6797092192c13b3550dd1bef4a6730e0" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/presentproto bottle rebuild...
+==> Bottling presentproto-1.0.x86_64_linux.bottle.1.tar.gz...
+./presentproto-1.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "b6837794fd66978b773cd8e23796d74e391591f80fd6a1c7567c75934e5a0397" => :x86_64_linux
+  end
+==> Determining pulseaudio bottle rebuild...
+==> Bottling pulseaudio-10.99.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if pulseaudio-10.99.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./pulseaudio-10.99.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "4dcea961c0b81151be5a15cfd3dfe67e658bd5e735cc750c8b2703c1f0e3969c" => :x86_64_linux
+  end
+==> Determining python3 bottle rebuild...
+==> Bottling python3-3.6.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if python3-3.6.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./python3-3.6.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "45f87a4f73e3a501fa3af4b5c8348ce33372f23a15348dbeab94f4c066d9798a" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/randrproto bottle rebuild...
+==> Bottling randrproto-1.5.0.x86_64_linux.bottle.1.tar.gz...
+./randrproto-1.5.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "62d41e3b7326611b541c7022691e3e5bb479d0d2b3671a70177d58978fc67c74" => :x86_64_linux
+  end
+==> Determining readline bottle rebuild...
+==> Bottling readline-7.0.3_1.x86_64_linux.bottle.1.tar.gz...
+./readline-7.0.3_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8d839401ffdbc2053ba31309e4ed2f6942a2f9801c403c0c70dc5a615a35961a" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/recordproto bottle rebuild...
+==> Bottling recordproto-1.14.2.x86_64_linux.bottle.1.tar.gz...
+./recordproto-1.14.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "9b1e555435d2f5236e163fbe7ef4aff7b62e284ab2533a10708b213a90606cc9" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/renderproto bottle rebuild...
+==> Bottling renderproto-0.11.1.x86_64_linux.bottle.1.tar.gz...
+./renderproto-0.11.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "a76f8632641d1c8bf8103fa81f08e088855e72eb30bfacdd0fb44ec39bf9eec6" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/resourceproto bottle rebuild...
+==> Bottling resourceproto-1.2.0.x86_64_linux.bottle.1.tar.gz...
+./resourceproto-1.2.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "bbe66f42bbcf585c4693595cb138ed5fd998fc3f5b80e3dfcd15f8dd7b7459ff" => :x86_64_linux
+  end
+This formula doesn't require compiling.
+==> Determining linuxbrew/xorg/scrnsaverproto bottle rebuild...
+==> Bottling scrnsaverproto-1.2.2.x86_64_linux.bottle.1.tar.gz...
+./scrnsaverproto-1.2.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "1be94aa4c665ed54ca052802e06a45efcfda1a382294f1b53d87f0afe8f27182" => :x86_64_linux
+  end
+==> Determining speexdsp bottle rebuild...
+==> Bottling speexdsp-1.2rc3.x86_64_linux.bottle.1.tar.gz...
+./speexdsp-1.2rc3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f1b5ff515f4f1f381af08fff8c59ab89337f233e9fa0f520e56a29a97f882b41" => :x86_64_linux
+  end
+==> Determining sphinx-doc bottle rebuild...
+==> Bottling sphinx-doc-1.6.3.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if sphinx-doc-1.6.3.x86_64_linux.bottle.1.tar.gz is relocatable...
+./sphinx-doc-1.6.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "9d2d57ba1be2c27e3f22153a740c91fd4bf185154e51e44e1e76d21d3b4119e4" => :x86_64_linux
+  end
+==> Determining systemd bottle rebuild...
+==> Bottling systemd-221.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if systemd-221.x86_64_linux.bottle.1.tar.gz is relocatable...
+./systemd-221.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "6505ebc71157928620f37cd1ab28c60597c7083b7e1f5506f176e636e721160d" => :x86_64_linux
+  end
+==> Determining texinfo bottle rebuild...
+==> Bottling texinfo-6.4.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if texinfo-6.4.x86_64_linux.bottle.1.tar.gz is relocatable...
+./texinfo-6.4.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "e15035bef83d56bc667c2e711c225f7b00ded303b7515d3ec54ab44988f6cb45" => :x86_64_linux
+  end
+==> Determining tinycdb bottle rebuild...
+==> Bottling tinycdb-0.78.x86_64_linux.bottle.1.tar.gz...
+./tinycdb-0.78.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "bf1209433937b004ca11b7726682ec225bdf023a26601aae9da3ae14bafa7150" => :x86_64_linux
+  end
+==> Determining unzip bottle rebuild...
+==> Bottling unzip-6.0_3.x86_64_linux.bottle.1.tar.gz...
+./unzip-6.0_3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8b8ded77e26e5f53d1af2f87a75fe71f38fd2aa8e03ac25b56c25450aacc31d5" => :x86_64_linux
+  end
+==> Determining util-linux bottle rebuild...
+==> Bottling util-linux-2.29.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if util-linux-2.29.x86_64_linux.bottle.1.tar.gz is relocatable...
+./util-linux-2.29.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "801d1f02d00222b242d9980865b09a71d1cbf863ef06415014a67fef4451ed5e" => :x86_64_linux
+  end
+==> Determining valgrind bottle rebuild...
+==> Bottling valgrind-3.13.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if valgrind-3.13.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./valgrind-3.13.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "391970e013e9868e67d9a88d7cac8d0c05ec4b376591f97e8411819ccf732d31" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/videoproto bottle rebuild...
+==> Bottling videoproto-2.3.3.x86_64_linux.bottle.1.tar.gz...
+./videoproto-2.3.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0d61d660dc18f0c2f5054a8d1355c92a2d141019d4d35811adc906d0d8504a60" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/wayland bottle rebuild...
+==> Bottling wayland-1.13.0.x86_64_linux.bottle.1.tar.gz...
+./wayland-1.13.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "41b6935f324e2ac2a9fd046e7c673a29e553eb252c0f9f9de2fff05041b8a746" => :x86_64_linux
+  end
+==> Determining wget bottle rebuild...
+==> Bottling wget-1.19.1_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if wget-1.19.1_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./wget-1.19.1_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "eadcb7172c88bdde7439a4f7940687d368043992d58f9f00ec50127c95ec8154" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/xcmiscproto bottle rebuild...
+==> Bottling xcmiscproto-1.2.2.x86_64_linux.bottle.1.tar.gz...
+./xcmiscproto-1.2.2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "800ba0968f55a3645833d91aaad3fd63019a3592695b03f32a349ad2583aa1d8" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/xextproto bottle rebuild...
+==> Bottling xextproto-7.3.0.x86_64_linux.bottle.1.tar.gz...
+./xextproto-7.3.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "4cc390cac46d8ee7358268e722cc05812d2498428aee55ad3c72f062b24d8b9c" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/xf86bigfontproto bottle rebuild...
+==> Bottling xf86bigfontproto-1.2.0.x86_64_linux.bottle.1.tar.gz...
+./xf86bigfontproto-1.2.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "2f09fbc0d19ea2c7fb3aa2437f538957ca1db9f43dc5c0aa7a9754ad382e488e" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/xf86dgaproto bottle rebuild...
+==> Bottling xf86dgaproto-2.1.x86_64_linux.bottle.1.tar.gz...
+./xf86dgaproto-2.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "0a275fc1811452e3ce2e532b016dcf5b75a0adbee34ecacb26bb53cb51beb95e" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/xf86driproto bottle rebuild...
+==> Bottling xf86driproto-2.1.1.x86_64_linux.bottle.1.tar.gz...
+./xf86driproto-2.1.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "8b58f38cd85fbae43eb3e914834bfcc4f05814f7f9fbd837dae92ca4cc5172f4" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/xf86vidmodeproto bottle rebuild...
+==> Bottling xf86vidmodeproto-2.3.1.x86_64_linux.bottle.1.tar.gz...
+./xf86vidmodeproto-2.3.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "77e92461ae7906c2d3ca7d83b10e1e209a2b4a0d3fd02e9adbf765d64936a723" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/xineramaproto bottle rebuild...
+==> Bottling xineramaproto-1.2.1.x86_64_linux.bottle.1.tar.gz...
+./xineramaproto-1.2.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "21fb4b891a0989e2a88024bdcb87ec0bca920b24559dbec5480e5aab3d8ef489" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/xkeyboardconfig bottle rebuild...
+==> Bottling xkeyboardconfig-2.20.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if xkeyboardconfig-2.20.x86_64_linux.bottle.1.tar.gz is relocatable...
+./xkeyboardconfig-2.20.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "2be3abf8f173922471a1b060f16dfc69c25383132731b0a66b10357137ed1bd9" => :x86_64_linux
+  end
+This formula doesn't require compiling.
+This formula doesn't require compiling.
+==> Determining linuxbrew/xorg/xproto bottle rebuild...
+==> Bottling xproto-7.0.31.x86_64_linux.bottle.1.tar.gz...
+./xproto-7.0.31.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "c7ffc8c9afbd09fb89008769cf56a71330b3d6e650624e57fc64a2cd28a7d71d" => :x86_64_linux
+  end
+==> Determining linuxbrew/xorg/xtrans bottle rebuild...
+==> Bottling xtrans-1.3.5.x86_64_linux.bottle.1.tar.gz...
+./xtrans-1.3.5.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "4453c12738f25443578b36810ce9da3e33eb942bfd14752bd019bf3737cff8c2" => :x86_64_linux
+  end
+==> Determining xz bottle rebuild...
+==> Bottling xz-5.2.3.x86_64_linux.bottle.1.tar.gz...
+./xz-5.2.3.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "1e3af9c68fddbdebeccd515ccf4da981a147027e78406b75a5368219e37d57ab" => :x86_64_linux
+  end
+==> Determining zlib bottle rebuild...
+==> Bottling zlib-1.2.11.x86_64_linux.bottle.1.tar.gz...
+./zlib-1.2.11.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "e43a27cae25a232a6c538c1c9b06db16b90576468bef2440eeedbb3159270ba2" => :x86_64_linux
+  end
