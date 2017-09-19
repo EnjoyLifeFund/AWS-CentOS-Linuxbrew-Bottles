@@ -1,15 +1,8 @@
-==> Downloading https://ftp.gnu.org/gnu/autoconf/autoconf-2.64.tar.gz
-A checksum was not provided for this resource
-For your reference the SHA256 is: a84471733f86ac2c1240a6d28b705b05a6b79c3cca8835c3712efbdf813c5eb6
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/autoconf/2.64 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/autoconf/2.64/share/emacs/site-lisp/autoconf
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autoconf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/autoconf/2.64: 65 files, 3.5MB, built in 10 seconds
-==> Determining autoconf bottle rebuild...
-==> Bottling autoconf-2.64.x86_64_linux.bottle.tar.gz...
-./autoconf-2.64.x86_64_linux.bottle.tar.gz
+==> Determining glibc bottle rebuild...
+==> Bottling glibc-2.23.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if glibc-2.23.x86_64_linux.bottle.1.tar.gz is relocatable...
+./glibc-2.23.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
-    sha256 "92b260ae824f5a043b287b61bbfdabf368ea7eadb5cc547e655f21ebb80b61d3" => :x86_64_linux
+    rebuild 1
+    sha256 "c968307c996bc4441941b85982a198e8ef437546dafa976d67eaf862e22d33c8" => :x86_64_linux
   end
