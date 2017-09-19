@@ -1,34 +1,16 @@
-==> Upgrading 1 outdated package, with result:
-fontconfig 2.12.5
-==> Upgrading fontconfig 
-==> Installing dependencies for fontconfig: freetype
-==> Installing fontconfig dependency: freetype
 ==> Downloading https://downloads.sourceforge.net/project/freetype/freetype2/2.8.1/freetype-2.8.1.tar.bz2
-==> Downloading from https://svwh.dl.sourceforge.net/project/freetype/freetype2/2.8.1/freetype-2.8.1.tar.bz2
+Already downloaded: /home/ec2-user/.cache/Homebrew/freetype-2.8.1.tar.bz2
 ==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1 --without-harfbuzz
 ==> make
 ==> make install
-🍺  /home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1: 64 files, 8.6MB, built in 58 seconds
-==> Installing fontconfig
-==> Downloading https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.12.5.tar.bz2
-==> autoreconf -iv
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/fontconfig/01.autoreconf:
-2017-09-18 23:03:40 -0400
-
-autoreconf
--iv
-
-autoreconf: Entering directory `.'
-autoreconf: configure.ac: not using Gettext
-autoreconf: running: aclocal -I m4
-configure.ac:37: error: Autoconf version 2.65 or higher is required
-/home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1/share/aclocal-1.15/init.m4:29: AM_INIT_AUTOMAKE is expanded from...
-configure.ac:37: the top level
-autom4te: /home/linuxbrew/.linuxbrew/bin/m4 failed with exit status: 63
-aclocal: error: echo failed with exit status: 63
-autoreconf: aclocal failed with exit status: 63
-
-READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
-Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
-
-
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall freetype`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1: 64 files, 8.6MB, built in 54 seconds
+==> Determining freetype bottle rebuild...
+==> Bottling freetype-2.8.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if freetype-2.8.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./freetype-2.8.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "5fdbb6e97f27bd1c33f2deb48661a129eb2e623792bb0e7de632df790e8a25a5" => :x86_64_linux
+  end
