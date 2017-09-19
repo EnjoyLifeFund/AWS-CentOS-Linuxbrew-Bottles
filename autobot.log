@@ -1,27 +1,8 @@
-==> Upgrading 1 outdated package, with result:
-libpng 1.6.32
-==> Upgrading libpng 
-==> Downloading https://download.sourceforge.net/libpng/libpng-1.6.32.tar.xz
-==> Downloading from https://iweb.dl.sourceforge.net/project/libpng/libpng16/1.6.32/libpng-1.6.32.tar.xz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpng/1.6.32
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/libpng/01.configure:
-checking for a BSD-compatible install... /usr/bin/install -c
-checking whether build environment is sane... yes
-checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
-checking for gawk... gawk
-checking whether make sets $(MAKE)... yes
-checking whether make supports nested variables... yes
-checking whether to enable maintainer-specific portions of Makefiles... no
-checking for gcc... gcc-7
-checking whether the C compiler works... yes
-checking for C compiler default output file name... a.out
-checking for suffix of executables... 
-checking whether we are cross compiling... configure: error: in `/tmp/libpng-20170918-25398-nirhd4/libpng-1.6.32':
-configure: error: cannot run C compiled programs.
-If you meant to cross compile, use `--host'.
-See `config.log' for more details
-
-READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
-Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
-
-
+==> Determining libxml2 bottle rebuild...
+==> Bottling libxml2-2.9.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libxml2-2.9.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libxml2-2.9.5.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "df089fbb66fac493dde6357439ac1ee77c8a84bd24eff67da9dbc9f94187cc34" => :x86_64_linux
+  end
