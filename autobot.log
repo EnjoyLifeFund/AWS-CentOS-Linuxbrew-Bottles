@@ -1,17 +1,34 @@
 ==> Upgrading 1 outdated package, with result:
-texinfo 6.5
-==> Upgrading texinfo 
-==> Downloading https://ftp.gnu.org/gnu/texinfo/texinfo-6.5.tar.xz
-==> ./configure --disable-install-warnings --prefix=/home/linuxbrew/.linuxbrew/Cellar/texinfo/6.5
+fontconfig 2.12.5
+==> Upgrading fontconfig 
+==> Installing dependencies for fontconfig: freetype
+==> Installing fontconfig dependency: freetype
+==> Downloading https://downloads.sourceforge.net/project/freetype/freetype2/2.8.1/freetype-2.8.1.tar.bz2
+==> Downloading from https://svwh.dl.sourceforge.net/project/freetype/freetype2/2.8.1/freetype-2.8.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1 --without-harfbuzz
+==> make
 ==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall texinfo`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/texinfo/6.5: 453 files, 10.7MB, built in 1 minute 6 seconds
-==> Determining texinfo bottle rebuild...
-==> Bottling texinfo-6.5.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if texinfo-6.5.x86_64_linux.bottle.1.tar.gz is relocatable...
-./texinfo-6.5.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "0fb7459dc1c334119dad1bcb1b33cea3da67733a51a6399ca913834a67105240" => :x86_64_linux
-  end
+🍺  /home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1: 64 files, 8.6MB, built in 58 seconds
+==> Installing fontconfig
+==> Downloading https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.12.5.tar.bz2
+==> autoreconf -iv
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/fontconfig/01.autoreconf:
+2017-09-18 23:03:40 -0400
+
+autoreconf
+-iv
+
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: aclocal -I m4
+configure.ac:37: error: Autoconf version 2.65 or higher is required
+/home/linuxbrew/.linuxbrew/Cellar/automake/1.15.1/share/aclocal-1.15/init.m4:29: AM_INIT_AUTOMAKE is expanded from...
+configure.ac:37: the top level
+autom4te: /home/linuxbrew/.linuxbrew/bin/m4 failed with exit status: 63
+aclocal: error: echo failed with exit status: 63
+autoreconf: aclocal failed with exit status: 63
+
+READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
+Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
+
+
