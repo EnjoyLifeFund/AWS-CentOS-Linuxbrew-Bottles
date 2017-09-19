@@ -1,30 +1,26 @@
 ==> Upgrading 1 outdated package, with result:
-bash-completion 1.3_3
-==> Upgrading bash-completion 
-==> Downloading https://bash-completion.alioth.debian.org/files/bash-completion-1.3.tar.bz2
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/c1d87451da3b5b147bed95b2dc783a1b02520ac5/bash-completion/bug-740971.patch
-==> Patching
-==> Applying bug-740971.patch
-patching file bash_completion
-patching file completions/man
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/bash-completion/1.3_3
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall bash-completion`
-==> Caveats
-Add the following line to your ~/.bash_profile:
-  [ -f /home/linuxbrew/.linuxbrew/etc/bash_completion ] && . /home/linuxbrew/.linuxbrew/etc/bash_completion
+libmagic 5.32
+==> Upgrading libmagic 
+==> Downloading ftp://ftp.astron.com/pub/file/file-5.32.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmagic/5.32 --enable-fsect-man5 --enable-static
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/libmagic/01.configure:
+checking for builtin ELF support... yes
+checking for ELF core file support... yes
+checking for zlib support... 
+checking for file formats in man section 5... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for style of include used by make... GNU
+checking for gcc... gcc-7
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... configure: error: in `/tmp/libmagic-20170918-21379-105ihqc/file-5.32':
+configure: error: cannot run C compiled programs.
+If you meant to cross compile, use `--host'.
+See `config.log' for more details
 
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
+READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
+Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
 
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/bash-completion/1.3_3: 189 files, 606KB, built in 10 seconds
-==> Determining bash-completion bottle rebuild...
-==> Bottling bash-completion-1.3_3.x86_64_linux.bottle.1.tar.gz...
-./bash-completion-1.3_3.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "538cbe5bcd2eb9c17b9f955f5fa78005466d641a3de33d0c39fa6aa15ffbd7d3" => :x86_64_linux
-  end
+
