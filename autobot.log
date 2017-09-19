@@ -1,7 +1,17 @@
-==> Determining pkg-config bottle rebuild...
-==> Bottling pkg-config-0.29.2_1.x86_64_linux.bottle.1.tar.gz...
-./pkg-config-0.29.2_1.x86_64_linux.bottle.1.tar.gz
+==> Upgrading 1 outdated package, with result:
+texinfo 6.5
+==> Upgrading texinfo 
+==> Downloading https://ftp.gnu.org/gnu/texinfo/texinfo-6.5.tar.xz
+==> ./configure --disable-install-warnings --prefix=/home/linuxbrew/.linuxbrew/Cellar/texinfo/6.5
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall texinfo`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/texinfo/6.5: 453 files, 10.7MB, built in 1 minute 6 seconds
+==> Determining texinfo bottle rebuild...
+==> Bottling texinfo-6.5.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if texinfo-6.5.x86_64_linux.bottle.1.tar.gz is relocatable...
+./texinfo-6.5.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "182362c6d9e6042a43414c86b9f8f128ec33f1bbeddd7b6e703ec06f6dcf084c" => :x86_64_linux
+    sha256 "0fb7459dc1c334119dad1bcb1b33cea3da67733a51a6399ca913834a67105240" => :x86_64_linux
   end
