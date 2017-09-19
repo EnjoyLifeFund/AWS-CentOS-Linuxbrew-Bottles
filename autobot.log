@@ -1,29 +1,52 @@
-==> Upgrading 1 outdated package, with result:
-cmake 3.9.2
-==> Upgrading cmake 
-==> Downloading https://cmake.org/files/v3.9/cmake-3.9.2.tar.gz
-==> ./bootstrap --prefix=/home/linuxbrew/.linuxbrew/Cellar/cmake/3.9.2 --no-system-libs --parallel=1 --datadir=/share/cmake --docdir=/share/doc/cmake --mandir=/share/man --system-zlib --system-bzip2 --system-curl --sphinx-man --sphinx-build=/home/linuxbrew/.linuxbrew/opt/sphinx-doc/bin/sphinx-build
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/cmake/01.bootstrap:
---system-curl
---sphinx-man
---sphinx-build=/home/linuxbrew/.linuxbrew/opt/sphinx-doc/bin/sphinx-build
-
----------------------------------------------
-CMake 3.9.2, Copyright 2000-2017 Kitware, Inc. and Contributors
----------------------------------------------
-Error when bootstrapping CMake:
-Cannot find appropriate C compiler on this system.
-Please specify one using environment variable CC.
-See cmake_bootstrap.log for compilers attempted.
-
----------------------------------------------
-Log of errors: /tmp/cmake-20170918-9467-uaqk3/cmake-3.9.2/Bootstrap.cmk/cmake_bootstrap.log
----------------------------------------------
+==> Downloading https://nodejs.org/dist/v8.5.0/node-v8.5.0.tar.xz
+Already downloaded: /home/ec2-user/.cache/Homebrew/node-8.5.0.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/node/8.5.0 --without-npm --with-intl=system-icu
+==> make install
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/node/02.make:
+  touch 66a8486f5d82477ece1c210c2c853a32a0710466.intermediate
+  LD_LIBRARY_PATH=/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/lib.host:/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/src/inspector; mkdir -p /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj/gen/src/inspector/protocol /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj/gen/include/inspector; python ../../third_party/inspector_protocol/CodeGenerator.py --jinja_dir ../../third_party --output_base "/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj/gen/src/inspector" --config inspector_protocol_config.json
+  touch /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj.target/deps/v8/src/inspector/protocol_generated_sources.stamp
+  LD_LIBRARY_PATH=/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/lib.host:/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/src/inspector; mkdir -p /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj/gen/src/inspector; python build/xxd.py InjectedScriptSource_js injected-script-source.js "/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj/gen/src/inspector/injected-script-source.h"
+  touch /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj.target/deps/v8/src/inspector/inspector_injected_script.stamp
+  LD_LIBRARY_PATH=/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/lib.host:/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/src/inspector; mkdir -p /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj/gen/src/inspector; python build/xxd.py DebuggerScript_js debugger-script.js "/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj/gen/src/inspector/debugger-script.h"
+  touch /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj.target/deps/v8/src/inspector/inspector_debugger_script.stamp
+  touch /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj.target/tools/icu/icui18n.stamp
+  touch /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj.target/tools/icu/icuuc.stamp
+  g++-7 '-DV8_GYP_BUILD' '-DV8_TARGET_ARCH_X64' '-DENABLE_DISASSEMBLER' '-DV8_PROMISE_INTERNAL_FIELD_COUNT' '-Dv8_promise_internal_field_count' '-DV8_INTL_SUPPORT' '-DICU_UTIL_DATA_IMPL=ICU_UTIL_DATA_STATIC' -I../deps/v8 -I../. -I/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj/gen -I/home/linuxbrew/.linuxbrew/Cellar/icu4c/58.2/include -I../deps/v8/include  -pthread -Wall -Wextra -Wno-unused-parameter -m64 -fno-strict-aliasing -m64 -fdata-sections -ffunction-sections -O3 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++0x -MMD -MF /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/.deps//tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj.target/v8_base/gen/src/inspector/protocol/Protocol.o.d.raw   -c -o /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj.target/v8_base/gen/src/inspector/protocol/Protocol.o /tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj/gen/src/inspector/protocol/Protocol.cpp
+make[1]: g++-7: Command not found
+make[1]: *** [/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out/Release/obj.target/v8_base/gen/src/inspector/protocol/Protocol.o] Error 127
+rm 66a8486f5d82477ece1c210c2c853a32a0710466.intermediate
+make[1]: Leaving directory `/tmp/node-20170918-11261-1ntkrgc/node-v8.5.0/out'
+make: *** [node] Error 2
 
 READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
 Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
 
-These open issues may also help:
-Cyclic dependency involving cmake and curl https://github.com/Linuxbrew/homebrew-core/issues/3348
-portmidi: Use cmake for Linuxbrew https://github.com/Linuxbrew/homebrew-core/pull/857
+==> Upgrading 1 outdated package, with result:
+node 8.5.0
+==> Upgrading node 
+==> Downloading https://nodejs.org/dist/v8.5.0/node-v8.5.0.tar.xz
+Already downloaded: /home/ec2-user/.cache/Homebrew/node-8.5.0.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/node/8.5.0 --without-npm --with-intl=system-icu
+==> make install
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/node/02.make:
+  touch d00f645bcced48f4283cba0196420c5b482a08ca.intermediate
+  LD_LIBRARY_PATH=/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/lib.host:/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/src/inspector; mkdir -p /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj/gen/src/inspector/protocol /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj/gen/include/inspector; python ../../third_party/inspector_protocol/CodeGenerator.py --jinja_dir ../../third_party --output_base "/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj/gen/src/inspector" --config inspector_protocol_config.json
+  touch /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj.target/deps/v8/src/inspector/protocol_generated_sources.stamp
+  LD_LIBRARY_PATH=/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/lib.host:/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/src/inspector; mkdir -p /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj/gen/src/inspector; python build/xxd.py InjectedScriptSource_js injected-script-source.js "/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj/gen/src/inspector/injected-script-source.h"
+  touch /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj.target/deps/v8/src/inspector/inspector_injected_script.stamp
+  LD_LIBRARY_PATH=/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/lib.host:/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/lib.target:$LD_LIBRARY_PATH; export LD_LIBRARY_PATH; cd ../deps/v8/src/inspector; mkdir -p /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj/gen/src/inspector; python build/xxd.py DebuggerScript_js debugger-script.js "/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj/gen/src/inspector/debugger-script.h"
+  touch /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj.target/deps/v8/src/inspector/inspector_debugger_script.stamp
+  touch /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj.target/tools/icu/icui18n.stamp
+  touch /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj.target/tools/icu/icuuc.stamp
+  g++-7 '-DV8_GYP_BUILD' '-DV8_TARGET_ARCH_X64' '-DENABLE_DISASSEMBLER' '-DV8_PROMISE_INTERNAL_FIELD_COUNT' '-Dv8_promise_internal_field_count' '-DV8_INTL_SUPPORT' '-DICU_UTIL_DATA_IMPL=ICU_UTIL_DATA_STATIC' -I../deps/v8 -I../. -I/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj/gen -I/home/linuxbrew/.linuxbrew/Cellar/icu4c/58.2/include -I../deps/v8/include  -pthread -Wall -Wextra -Wno-unused-parameter -m64 -fno-strict-aliasing -m64 -fdata-sections -ffunction-sections -O3 -O3 -fno-omit-frame-pointer -fno-rtti -fno-exceptions -std=gnu++0x -MMD -MF /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/.deps//tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj.target/v8_base/gen/src/inspector/protocol/Protocol.o.d.raw   -c -o /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj.target/v8_base/gen/src/inspector/protocol/Protocol.o /tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj/gen/src/inspector/protocol/Protocol.cpp
+make[1]: g++-7: Command not found
+make[1]: *** [/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out/Release/obj.target/v8_base/gen/src/inspector/protocol/Protocol.o] Error 127
+rm d00f645bcced48f4283cba0196420c5b482a08ca.intermediate
+make[1]: Leaving directory `/tmp/node-20170918-12711-1sh15lc/node-v8.5.0/out'
+make: *** [node] Error 2
+
+READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
+Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
+
 
