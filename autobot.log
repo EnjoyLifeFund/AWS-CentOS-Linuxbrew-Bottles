@@ -1,26 +1,26 @@
 ==> Upgrading 1 outdated package, with result:
-texinfo 6.5
-==> Upgrading texinfo 
-==> Downloading https://ftp.gnu.org/gnu/texinfo/texinfo-6.5.tar.xz
-==> ./configure --disable-install-warnings --prefix=/home/linuxbrew/.linuxbrew/Cellar/texinfo/6.5
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/texinfo/01.configure:
-checking whether make supports nested variables... yes
-checking whether UID '1000' is supported by ustar format... yes
-checking whether GID '1000' is supported by ustar format... yes
-checking how to create a ustar tar archive... gnutar
-checking for perl... /usr/bin/perl
-checking Perl version and Encode module... yes
-checking for gawk... (cached) gawk
-checking for gcc... gcc-7
-checking whether the C compiler works... yes
-checking for C compiler default output file name... a.out
-checking for suffix of executables... 
-checking whether we are cross compiling... configure: error: in `/tmp/texinfo-20170918-15061-18pzn9/texinfo-6.5':
-configure: error: cannot run C compiled programs.
-If you meant to cross compile, use `--host'.
-See `config.log' for more details
+cython 0.26.1
+==> Upgrading cython 
+==> Downloading https://files.pythonhosted.org/packages/68/41/2f259b62306268d9cf0d6434b4e83a2fb1785b34cfce27fdeeca3adffd0e/Cython-0.26.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cython/0.26.1/libexec --single-version-externally-managed --record=installed.txt
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall cython`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this formula is mainly used internally by other formulae.
+Users are advised to use `pip` to install cython.
 
-READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
-Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/cython/bin:$PATH"' >> ~/.bash_profile
 
 
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cython/0.26.1: 426 files, 23.0MB, built in 2 minutes 20 seconds
+==> Determining cython bottle rebuild...
+==> Bottling cython-0.26.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cython-0.26.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cython-0.26.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "09f5a6ae810a1f169771232e607f6ac1abafd775c055c22afcf00f3c1f4b20a0" => :x86_64_linux
+  end
