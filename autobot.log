@@ -1,25 +1,24 @@
 ==> Upgrading 1 outdated package, with result:
-apr-util 1.6.0_1
-==> Upgrading apr-util 
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-util-1.6.0.tar.bz2
-==> Best Mirror http://apache.mirrors.tds.net/apr/apr-util-1.6.0.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.0_1/libexec --with-apr=/home/linuxbrew/.linuxbrew/opt/apr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-crypto
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/apr-util/01.configure:
-checking build system type... x86_64-pc-linux-gnu
-checking host system type... x86_64-pc-linux-gnu
-checking target system type... x86_64-pc-linux-gnu
-checking for a BSD-compatible install... /usr/bin/install -c
-checking for working mkdir -p... yes
-APR-util Version: 1.6.0
-checking for chosen layout... apr-util
-checking for gcc... gcc-7
-checking whether the C compiler works... yes
-checking for C compiler default output file name... a.out
-checking for suffix of executables... 
-checking whether we are cross compiling... configure: error: in `/tmp/apr-util-20170918-31025-z00yay/apr-util-1.6.0':
-configure: error: cannot run C compiled programs.
-If you meant to cross compile, use `--host'.
-See `config.log' for more details
+pulseaudio 11.0
+==> Upgrading pulseaudio 
+==> Installing dependencies for pulseaudio: json-c
+==> Installing pulseaudio dependency: json-c
+==> Downloading https://linuxbrew.bintray.com/bottles/json-c-0.12.1.x86_64_linux.bottle.tar.gz
+==> Pouring json-c-0.12.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/json-c/0.12.1: 28 files, 469.5KB
+==> Installing pulseaudio
+==> Downloading https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-11.0.tar.xz
+==> Downloading https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-2.44.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/pulseaudio/11.0/libexec
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/pulseaudio/01.perl:
+2017-09-18 20:45:44 -0400
+
+perl
+Makefile.PL
+INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/pulseaudio/11.0/libexec
+
+Can't locate ExtUtils/MakeMaker.pm in @INC (@INC contains: /home/linuxbrew/.linuxbrew/Cellar/pulseaudio/11.0/libexec/lib/perl5 /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at Makefile.PL line 2.
+BEGIN failed--compilation aborted at Makefile.PL line 2.
 
 READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
 Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
