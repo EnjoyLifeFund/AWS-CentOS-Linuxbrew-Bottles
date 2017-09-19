@@ -1,32 +1,29 @@
-==> Installing mesa from linuxbrew/xorg
 ==> Upgrading 1 outdated package, with result:
-linuxbrew/xorg/mesa 17.1.6
-==> Upgrading linuxbrew/xorg/mesa 
-==> Installing dependencies for linuxbrew/xorg/mesa: freetype, fontconfig, flex, glib, systemd, llvm
-==> Installing linuxbrew/xorg/mesa dependency: freetype
-==> Downloading https://downloads.sourceforge.net/project/freetype/freetype2/2.8.1/freetype-2.8.1.tar.bz2
-Already downloaded: /home/ec2-user/.cache/Homebrew/freetype-2.8.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1 --without-harfbuzz
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/freetype/01.configure:
-* module: psnames   (Postscript & Unicode Glyph name handling)
-done.
-cd builds/unix; \
-        ./configure  '--prefix=/home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1' '--without-harfbuzz'
-checking build system type... x86_64-pc-linux-gnu
-checking host system type... x86_64-pc-linux-gnu
-checking for gcc... gcc-7
-checking whether the C compiler works... yes
-checking for C compiler default output file name... a.out
-checking for suffix of executables... 
-checking whether we are cross compiling... configure: error: in `/tmp/freetype-20170918-7404-uyf52c/freetype-2.8.1/builds/unix':
-configure: error: cannot run C compiled programs.
-If you meant to cross compile, use `--host'.
-See `config.log' for more details
-make: *** [setup] Error 1
+cmake 3.9.2
+==> Upgrading cmake 
+==> Downloading https://cmake.org/files/v3.9/cmake-3.9.2.tar.gz
+==> ./bootstrap --prefix=/home/linuxbrew/.linuxbrew/Cellar/cmake/3.9.2 --no-system-libs --parallel=1 --datadir=/share/cmake --docdir=/share/doc/cmake --mandir=/share/man --system-zlib --system-bzip2 --system-curl --sphinx-man --sphinx-build=/home/linuxbrew/.linuxbrew/opt/sphinx-doc/bin/sphinx-build
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/cmake/01.bootstrap:
+--system-curl
+--sphinx-man
+--sphinx-build=/home/linuxbrew/.linuxbrew/opt/sphinx-doc/bin/sphinx-build
+
+---------------------------------------------
+CMake 3.9.2, Copyright 2000-2017 Kitware, Inc. and Contributors
+---------------------------------------------
+Error when bootstrapping CMake:
+Cannot find appropriate C compiler on this system.
+Please specify one using environment variable CC.
+See cmake_bootstrap.log for compilers attempted.
+
+---------------------------------------------
+Log of errors: /tmp/cmake-20170918-9467-uaqk3/cmake-3.9.2/Bootstrap.cmk/cmake_bootstrap.log
+---------------------------------------------
 
 READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
 Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
 
 These open issues may also help:
-freetype: Build a bottle for Linuxbrew https://github.com/Linuxbrew/homebrew-core/pull/4339
+Cyclic dependency involving cmake and curl https://github.com/Linuxbrew/homebrew-core/issues/3348
+portmidi: Use cmake for Linuxbrew https://github.com/Linuxbrew/homebrew-core/pull/857
 
