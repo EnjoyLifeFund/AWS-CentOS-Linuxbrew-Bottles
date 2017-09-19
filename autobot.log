@@ -1,21 +1,22 @@
 ==> Upgrading 1 outdated package, with result:
-libgcrypt 1.8.1
-==> Upgrading libgcrypt 
-==> Downloading https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.8.1.tar.bz2
-==> ./configure --disable-silent-rules --enable-static --prefix=/home/linuxbrew/.linuxbrew/Cellar/libgcrypt/1.8.1 --disable-asm --with-libgpg-error-prefix=/home/linuxbrew/.linuxbrew/opt/libgpg-error --disable-jent-support
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/libgcrypt/01.configure:
+libpng 1.6.32
+==> Upgrading libpng 
+==> Downloading https://download.sourceforge.net/libpng/libpng-1.6.32.tar.xz
+==> Downloading from https://iweb.dl.sourceforge.net/project/libpng/libpng16/1.6.32/libpng-1.6.32.tar.xz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libpng/1.6.32
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/libpng/01.configure:
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
 checking whether make sets $(MAKE)... yes
 checking whether make supports nested variables... yes
-checking build system type... x86_64-pc-linux-gnu
-checking host system type... x86_64-pc-linux-gnu
 checking whether to enable maintainer-specific portions of Makefiles... no
-checking whether make supports nested variables... (cached) yes
-checking whether make sets $(MAKE)... (cached) yes
 checking for gcc... gcc-7
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
 checking for suffix of executables... 
-checking whether we are cross compiling... configure: error: in `/tmp/libgcrypt-20170918-23368-anji1t/libgcrypt-1.8.1':
+checking whether we are cross compiling... configure: error: in `/tmp/libpng-20170918-25398-nirhd4/libpng-1.6.32':
 configure: error: cannot run C compiled programs.
 If you meant to cross compile, use `--host'.
 See `config.log' for more details
