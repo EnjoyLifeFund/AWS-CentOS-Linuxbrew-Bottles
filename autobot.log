@@ -1,8 +1,27 @@
 ==> Upgrading 1 outdated package, with result:
-vim 8.0.1100_1
-==> Upgrading vim 
-==> Downloading https://github.com/vim/vim/archive/v8.0.1100.tar.gz
-Already downloaded: /home/ec2-user/.cache/Homebrew/vim-8.0.1100.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew --mandir=/home/linuxbrew/.linuxbrew/Cellar/vim/8.0.1100_1/share/man --enable-multibyte --with-tlib=ncurses --enable-cscope --enable-terminal --with-compiledby=Homebrew --enable-perlinterp --enable-pythoninterp --enable-rubyinterp --disable-nls --enable-gui=no --without-x
-==> make
-==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/vim/8.0.1100_1 STRIP=/home/linuxbrew/.linuxbrew/bin/true
+libgcrypt 1.8.1
+==> Upgrading libgcrypt 
+==> Downloading https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.8.1.tar.bz2
+Already downloaded: /home/ec2-user/.cache/Homebrew/libgcrypt-1.8.1.tar.bz2
+==> ./configure --disable-silent-rules --enable-static --prefix=/home/linuxbrew/.linuxbrew/Cellar/libgcrypt/1.8.1 --disable-asm --with-libgpg-error-prefix=/home/linuxbrew/.linuxbrew/opt/libgpg-error --disable-jent-support
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/libgcrypt/01.configure:
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for gcc... gcc-7
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... configure: error: in `/tmp/libgcrypt-20170918-20559-1j6lkrx/libgcrypt-1.8.1':
+configure: error: cannot run C compiled programs.
+If you meant to cross compile, use `--host'.
+See `config.log' for more details
+
+READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
+Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
+
+
