@@ -1,64 +1,27 @@
 ==> Upgrading 1 outdated package, with result:
-glib 2.54.0
-==> Upgrading glib 
-==> Installing dependencies for glib: libxml2
-==> Installing glib dependency: libxml2
-==> Downloading https://linuxbrew.bintray.com/bottles/libxml2-2.9.5.x86_64_linux.bottle.tar.gz
-==> Pouring libxml2-2.9.5.x86_64_linux.bottle.tar.gz
-==> Caveats
-
-Python modules have been installed and Homebrew's site-packages is not
-in your Python sys.path, so you will not be able to import the modules
-this formula installed. If you plan to develop with these modules,
-please run:
-  mkdir -p /home/ec2-user/.local/lib/python2.7/site-packages
-  echo 'import site; site.addsitedir("/home/linuxbrew/.linuxbrew/lib/python2.7/site-packages")' >> /home/ec2-user/.local/lib/python2.7/site-packages/homebrew.pth
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libxml2/2.9.5: 282 files, 23.5MB
-==> Installing glib
-==> Downloading https://download.gnome.org/sources/glib/2.54/glib-2.54.0.tar.xz
-==> Downloading from http://mirror.umd.edu/gnome/sources/glib/2.54/glib-2.54.0.tar.xz
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/59e4d32/glib/hardcoded-paths.diff
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/13efbb2/glib/gio.patch
-==> Downloading https://raw.githubusercontent.com/Homebrew/formula-patches/73738ca/glib/revert-appinfo-contenttype.patch
-==> Patching
-==> Applying hardcoded-paths.diff
-patching file gio/gdbusprivate.c
-Hunk #1 succeeded at 2098 (offset -1 lines).
-Hunk #2 succeeded at 2108 (offset -1 lines).
-patching file gio/xdgmime/xdgmime.c
-patching file glib/gutils.c
-Hunk #1 succeeded at 2017 with fuzz 2 (offset 79 lines).
-==> Applying gio.patch
-patching file configure.ac
-patching file gio/Makefile.am
-Hunk #1 succeeded at 137 (offset 2 lines).
-Hunk #2 succeeded at 290 (offset 8 lines).
-Hunk #3 succeeded at 608 (offset 23 lines).
-==> Applying revert-appinfo-contenttype.patch
-patching file gio/Makefile.am
-Hunk #3 succeeded at 394 (offset 5 lines).
-Hunk #4 succeeded at 871 (offset 4 lines).
-Hunk #5 succeeded at 881 (offset 4 lines).
-patching file gio/giomodule.c
-patching file gio/glocalfileinfo.c
-Hunk #1 succeeded at 1269 (offset 10 lines).
-patching file gio/tests/Makefile.am
-==> autoreconf -i -f
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/glib/01.autoreconf:
-2017-09-18 20:33:33 -0400
-
-autoreconf
--i
--f
-
-Can't exec "glibtoolize": No such file or directory at /home/linuxbrew/.linuxbrew/Cellar/autoconf/2.69/share/autoconf/Autom4te/FileUtils.pm line 345, <GEN3> line 4.
-autoreconf: failed to run glibtoolize: No such file or directory
-autoreconf: glibtoolize is needed because this package uses Libtool
+json-c 0.12.1
+==> Upgrading json-c 
+==> Downloading https://github.com/json-c/json-c/archive/json-c-0.12.1-20160607.tar.gz
+==> Downloading from https://codeload.github.com/json-c/json-c/tar.gz/json-c-0.12.1-20160607
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/json-c/0.12.1
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/json-c/01.configure:
+checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make sets $(MAKE)... (cached) yes
+RDRAND Hardware RNG Hash Seed disabled. Use --enable-rdrand to enable
+checking for style of include used by make... GNU
+checking for gcc... gcc-7
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... configure: error: in `/tmp/json-c-20170918-27910-1moznt7/json-c-json-c-0.12.1-20160607':
+configure: error: cannot run C compiled programs.
+If you meant to cross compile, use `--host'.
+See `config.log' for more details
 
 READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
 Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
 
-These open issues may also help:
-glib failed to build on CentOS Linux release 7.3.1611 https://github.com/Linuxbrew/homebrew-core/issues/4248
 
