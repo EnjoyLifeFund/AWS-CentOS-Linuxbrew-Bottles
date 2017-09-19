@@ -1,26 +1,7 @@
-==> Downloading https://pkgconfig.freedesktop.org/releases/pkg-config-0.29.2.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/pkg-config/0.29.2_1 --disable-host-tool --with-internal-glib --with-pc-path=/home/linuxbrew/.linuxbrew/lib/pkgconfig:/home/linuxbrew/.linuxbrew/share/pkgconfig:/home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/os/linux/pkgconfig
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/pkg-config/01.configure:
-checking for gawk... gawk
-checking whether make sets $(MAKE)... yes
-checking whether make supports nested variables... yes
-checking build system type... x86_64-unknown-linux-gnu
-checking host system type... x86_64-unknown-linux-gnu
-checking how to print strings... printf
-checking for style of include used by make... GNU
-checking for gcc... gcc-7
-checking whether the C compiler works... yes
-checking for C compiler default output file name... a.out
-checking for suffix of executables... 
-checking whether we are cross compiling... configure: error: in `/tmp/pkg-config-20170918-24285-1g2v4w6/pkg-config-0.29.2':
-configure: error: cannot run C compiled programs.
-If you meant to cross compile, use `--host'.
-See `config.log' for more details
-
-READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
-Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
-
-==> Installing patchelf...
-==> Downloading https://linuxbrew.bintray.com/bottles/patchelf-0.9_1.x86_64_linux.bottle.tar.gz
-==> Pouring patchelf-0.9_1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/patchelf/0.9_1: 6 files, 1.1MB
+==> Determining patchelf bottle rebuild...
+==> Bottling patchelf-0.9_1.x86_64_linux.bottle.1.tar.gz...
+./patchelf-0.9_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "86c7c54b3851112290ac110fb454a5e72d993fac7dea4887ff4d8206d441b1ad" => :x86_64_linux
+  end
