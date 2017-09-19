@@ -1,1 +1,8 @@
-This formula doesn't require compiling.
+==> Determining apr bottle rebuild...
+==> Bottling apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "b7527ee3ba35c63360ae2f7fd1f6c56e3ae4d4271ed75d5681d341ca60c8c392" => :x86_64_linux
+  end
