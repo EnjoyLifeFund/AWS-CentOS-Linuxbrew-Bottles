@@ -1,26 +1,18 @@
 ==> Upgrading 1 outdated package, with result:
-ruby 2.4.2
-==> Upgrading ruby 
-==> Downloading https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.xz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.2 --enable-shared --disable-silent-rules --with-sitedir=/home/linuxbrew/.linuxbrew/lib/ruby/site_ruby --with-vendordir=/home/linuxbrew/.linuxbrew/lib/ruby/vendor_ruby --disable-install-doc --without-gmp --with-opt-dir=/home/linuxbrew/.linuxbrew/opt/libyaml:/home/linuxbrew/.linuxbrew/opt/openssl:/home/linuxbrew/.linuxbrew/opt/readline
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/ruby/01.configure:
---with-vendordir=/home/linuxbrew/.linuxbrew/lib/ruby/vendor_ruby
---disable-install-doc
---without-gmp
---with-opt-dir=/home/linuxbrew/.linuxbrew/opt/libyaml:/home/linuxbrew/.linuxbrew/opt/openssl:/home/linuxbrew/.linuxbrew/opt/readline
-
-checking for ruby... /usr/bin/ruby
-config.guess already exists
-config.sub already exists
-checking build system type... x86_64-pc-linux-gnu
-checking host system type... x86_64-pc-linux-gnu
-checking target system type... x86_64-pc-linux-gnu
-checking whether the C compiler works... no
-configure: error: in `/tmp/ruby-20170918-29866-12q1bk1/ruby-2.4.2':
-configure: error: C compiler cannot create executables
-See `config.log' for more details
-
-READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
-Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
-
-
+apr 1.6.2_1
+==> Upgrading apr 
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-1.6.2.tar.bz2
+==> Best Mirror http://mirror.cogentco.com/pub/apache/apr/apr-1.6.2.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr/1.6.2_1/libexec
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall apr`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apr/1.6.2_1: 64 files, 3.2MB, built in 1 minute 37 seconds
+==> Determining apr bottle rebuild...
+==> Bottling apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "ee69a638b7ebc188e2ebb7d075ae2c7aec8882a33d6243f18fa77fce495a57d5" => :x86_64_linux
+  end
