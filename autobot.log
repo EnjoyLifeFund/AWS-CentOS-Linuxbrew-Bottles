@@ -1,18 +1,20 @@
 ==> Upgrading 1 outdated package, with result:
-apr-util 1.6.0_1
-==> Upgrading apr-util 
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-util-1.6.0.tar.bz2
-==> Best Mirror http://mirror.metrocast.net/apache/apr/apr-util-1.6.0.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.0_1/libexec --with-apr=/home/linuxbrew/.linuxbrew/opt/apr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-crypto
-==> make
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apr-util`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.0_1: 58 files, 2.1MB, built in 31 seconds
-==> Determining apr-util bottle rebuild...
-==> Bottling apr-util-1.6.0_1.x86_64_linux.bottle.1.tar.gz...
-./apr-util-1.6.0_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "f426e2ca9cdfbaba73d17247e32c00884f7386aaaca45ae91bafb24ab5a8618e" => :x86_64_linux
-  end
+pulseaudio 11.0
+==> Upgrading pulseaudio 
+==> Downloading https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-11.0.tar.xz
+==> Downloading https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-2.44.tar.gz
+==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/pulseaudio/11.0/libexec
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/pulseaudio/01.perl:
+2017-09-18 23:09:00 -0400
+
+perl
+Makefile.PL
+INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/pulseaudio/11.0/libexec
+
+Can't locate ExtUtils/MakeMaker.pm in @INC (@INC contains: /home/linuxbrew/.linuxbrew/Cellar/pulseaudio/11.0/libexec/lib/perl5 /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at Makefile.PL line 2.
+BEGIN failed--compilation aborted at Makefile.PL line 2.
+
+READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
+Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
+
+
