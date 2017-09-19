@@ -1,26 +1,31 @@
 ==> Upgrading 1 outdated package, with result:
-libmagic 5.32
-==> Upgrading libmagic 
-==> Downloading ftp://ftp.astron.com/pub/file/file-5.32.tar.gz
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmagic/5.32 --enable-fsect-man5 --enable-static
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/libmagic/01.configure:
-checking for builtin ELF support... yes
-checking for ELF core file support... yes
-checking for zlib support... 
-checking for file formats in man section 5... yes
+fontconfig 2.12.5
+==> Upgrading fontconfig 
+==> Installing dependencies for fontconfig: freetype
+==> Installing fontconfig dependency: freetype
+==> Downloading https://downloads.sourceforge.net/project/freetype/freetype2/2.8.1/freetype-2.8.1.tar.bz2
+Already downloaded: /home/ec2-user/.cache/Homebrew/freetype-2.8.1.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1 --without-harfbuzz
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/freetype/01.configure:
+* module: psnames   (Postscript & Unicode Glyph name handling)
+done.
+cd builds/unix; \
+        ./configure  '--prefix=/home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1' '--without-harfbuzz'
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
-checking for style of include used by make... GNU
 checking for gcc... gcc-7
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
 checking for suffix of executables... 
-checking whether we are cross compiling... configure: error: in `/tmp/libmagic-20170918-21379-105ihqc/file-5.32':
+checking whether we are cross compiling... configure: error: in `/tmp/freetype-20170918-23381-1i3twk4/freetype-2.8.1/builds/unix':
 configure: error: cannot run C compiled programs.
 If you meant to cross compile, use `--host'.
 See `config.log' for more details
+make: *** [setup] Error 1
 
 READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
 Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
 
+These open issues may also help:
+freetype: Build a bottle for Linuxbrew https://github.com/Linuxbrew/homebrew-core/pull/4339
 
