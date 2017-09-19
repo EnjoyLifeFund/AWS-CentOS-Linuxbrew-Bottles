@@ -1,20 +1,17 @@
 ==> Upgrading 1 outdated package, with result:
-pulseaudio 11.0
-==> Upgrading pulseaudio 
-==> Downloading https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-11.0.tar.xz
-==> Downloading https://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-2.44.tar.gz
-==> perl Makefile.PL INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/pulseaudio/11.0/libexec
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/pulseaudio/01.perl:
-2017-09-18 23:09:00 -0400
-
-perl
-Makefile.PL
-INSTALL_BASE=/home/linuxbrew/.linuxbrew/Cellar/pulseaudio/11.0/libexec
-
-Can't locate ExtUtils/MakeMaker.pm in @INC (@INC contains: /home/linuxbrew/.linuxbrew/Cellar/pulseaudio/11.0/libexec/lib/perl5 /usr/local/lib64/perl5 /usr/local/share/perl5 /usr/lib64/perl5/vendor_perl /usr/share/perl5/vendor_perl /usr/lib64/perl5 /usr/share/perl5 .) at Makefile.PL line 2.
-BEGIN failed--compilation aborted at Makefile.PL line 2.
-
-READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
-Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
-
-
+libmagic 5.32
+==> Upgrading libmagic 
+==> Downloading ftp://ftp.astron.com/pub/file/file-5.32.tar.gz
+==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/libmagic/5.32 --enable-fsect-man5 --enable-static
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall libmagic`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmagic/5.32: 300 files, 7.0MB, built in 32 seconds
+==> Determining libmagic bottle rebuild...
+==> Bottling libmagic-5.32.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if libmagic-5.32.x86_64_linux.bottle.1.tar.gz is relocatable...
+./libmagic-5.32.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "424a82f9f4869db4be14ed0d05aa46fcddc94184c4cf17c75ec2cdf2f9955fd0" => :x86_64_linux
+  end
