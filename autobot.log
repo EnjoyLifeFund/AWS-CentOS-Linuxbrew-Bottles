@@ -1,18 +1,8 @@
 ==> Upgrading 1 outdated package, with result:
-apr 1.6.2_1
-==> Upgrading apr 
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-1.6.2.tar.bz2
-==> Best Mirror http://mirror.cogentco.com/pub/apache/apr/apr-1.6.2.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr/1.6.2_1/libexec
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall apr`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/apr/1.6.2_1: 64 files, 3.2MB, built in 1 minute 37 seconds
-==> Determining apr bottle rebuild...
-==> Bottling apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./apr-1.6.2_1.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "ee69a638b7ebc188e2ebb7d075ae2c7aec8882a33d6243f18fa77fce495a57d5" => :x86_64_linux
-  end
+vim 8.0.1100_1
+==> Upgrading vim 
+==> Downloading https://github.com/vim/vim/archive/v8.0.1100.tar.gz
+==> Downloading from https://codeload.github.com/vim/vim/tar.gz/v8.0.1100
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew --mandir=/home/linuxbrew/.linuxbrew/Cellar/vim/8.0.1100_1/share/man --enable-multibyte --with-tlib=ncurses --enable-cscope --enable-terminal --with-compiledby=Homebrew --enable-perlinterp --enable-pythoninterp --enable-rubyinterp --disable-nls --enable-gui=no --without-x
+==> make
+==> make install prefix=/home/linuxbrew/.linuxbrew/Cellar/vim/8.0.1100_1 STRIP=/usr/bin/true
