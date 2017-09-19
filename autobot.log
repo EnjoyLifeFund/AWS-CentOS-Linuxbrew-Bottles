@@ -1,24 +1,23 @@
 ==> Upgrading 1 outdated package, with result:
-json-c 0.12.1
-==> Upgrading json-c 
-==> Downloading https://github.com/json-c/json-c/archive/json-c-0.12.1-20160607.tar.gz
-==> Downloading from https://codeload.github.com/json-c/json-c/tar.gz/json-c-0.12.1-20160607
-==> ./configure --disable-silent-rules --prefix=/home/linuxbrew/.linuxbrew/Cellar/json-c/0.12.1
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/json-c/01.configure:
-checking for a thread-safe mkdir -p... /usr/bin/mkdir -p
-checking for gawk... gawk
-checking whether make sets $(MAKE)... yes
-checking whether make supports nested variables... yes
-checking whether make sets $(MAKE)... (cached) yes
-RDRAND Hardware RNG Hash Seed disabled. Use --enable-rdrand to enable
-checking for style of include used by make... GNU
-checking for gcc... gcc-7
-checking whether the C compiler works... yes
-checking for C compiler default output file name... a.out
-checking for suffix of executables... 
-checking whether we are cross compiling... configure: error: in `/tmp/json-c-20170918-27910-1moznt7/json-c-json-c-0.12.1-20160607':
-configure: error: cannot run C compiled programs.
-If you meant to cross compile, use `--host'.
+ruby 2.4.2
+==> Upgrading ruby 
+==> Downloading https://cache.ruby-lang.org/pub/ruby/2.4/ruby-2.4.2.tar.xz
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/ruby/2.4.2 --enable-shared --disable-silent-rules --with-sitedir=/home/linuxbrew/.linuxbrew/lib/ruby/site_ruby --with-vendordir=/home/linuxbrew/.linuxbrew/lib/ruby/vendor_ruby --disable-install-doc --without-gmp --with-opt-dir=/home/linuxbrew/.linuxbrew/opt/libyaml:/home/linuxbrew/.linuxbrew/opt/openssl:/home/linuxbrew/.linuxbrew/opt/readline
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/ruby/01.configure:
+--with-vendordir=/home/linuxbrew/.linuxbrew/lib/ruby/vendor_ruby
+--disable-install-doc
+--without-gmp
+--with-opt-dir=/home/linuxbrew/.linuxbrew/opt/libyaml:/home/linuxbrew/.linuxbrew/opt/openssl:/home/linuxbrew/.linuxbrew/opt/readline
+
+checking for ruby... /usr/bin/ruby
+config.guess already exists
+config.sub already exists
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking whether the C compiler works... no
+configure: error: in `/tmp/ruby-20170918-29866-12q1bk1/ruby-2.4.2':
+configure: error: C compiler cannot create executables
 See `config.log' for more details
 
 READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
