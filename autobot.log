@@ -1,35 +1,27 @@
 ==> Upgrading 1 outdated package, with result:
-freetype 2.8.1
-==> Upgrading freetype 
-==> Installing dependencies for freetype: libpng
-==> Installing freetype dependency: libpng
-==> Downloading https://linuxbrew.bintray.com/bottles/libpng-1.6.32.x86_64_linux.bottle.tar.gz
-==> Pouring libpng-1.6.32.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/libpng/1.6.32: 27 files, 3.5MB
-==> Installing freetype
-==> Downloading https://downloads.sourceforge.net/project/freetype/freetype2/2.8.1/freetype-2.8.1.tar.bz2
-==> Downloading from https://astuteinternet.dl.sourceforge.net/project/freetype/freetype2/2.8.1/freetype-2.8.1.tar.bz2
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1 --without-harfbuzz
-Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/freetype/01.configure:
-* module: psnames   (Postscript & Unicode Glyph name handling)
-done.
-cd builds/unix; \
-        ./configure  '--prefix=/home/linuxbrew/.linuxbrew/Cellar/freetype/2.8.1' '--without-harfbuzz'
+apr-util 1.6.0_1
+==> Upgrading apr-util 
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=apr/apr-util-1.6.0.tar.bz2
+==> Best Mirror http://apache.mirrors.tds.net/apr/apr-util-1.6.0.tar.bz2
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/apr-util/1.6.0_1/libexec --with-apr=/home/linuxbrew/.linuxbrew/opt/apr --with-openssl=/home/linuxbrew/.linuxbrew/opt/openssl --with-crypto
+Last 15 lines from /home/ec2-user/.cache/Homebrew/Logs/apr-util/01.configure:
 checking build system type... x86_64-pc-linux-gnu
 checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for working mkdir -p... yes
+APR-util Version: 1.6.0
+checking for chosen layout... apr-util
 checking for gcc... gcc-7
 checking whether the C compiler works... yes
 checking for C compiler default output file name... a.out
 checking for suffix of executables... 
-checking whether we are cross compiling... configure: error: in `/tmp/freetype-20170918-29000-1a2cn9o/freetype-2.8.1/builds/unix':
+checking whether we are cross compiling... configure: error: in `/tmp/apr-util-20170918-31025-z00yay/apr-util-1.6.0':
 configure: error: cannot run C compiled programs.
 If you meant to cross compile, use `--host'.
 See `config.log' for more details
-make: *** [setup] Error 1
 
 READ THIS: https://github.com/Linuxbrew/brew/blob/master/docs/Troubleshooting.md#troubleshooting
 Please do not report this issue to Homebrew/brew or Homebrew/core, which support macOS only.
 
-These open issues may also help:
-freetype: Build a bottle for Linuxbrew https://github.com/Linuxbrew/homebrew-core/pull/4339
 
