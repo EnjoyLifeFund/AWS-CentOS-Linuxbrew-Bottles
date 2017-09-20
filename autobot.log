@@ -1,1 +1,22 @@
-This formula doesn't require compiling.
+==> Installing dependencies for apache-brooklyn-cli: glide
+==> Installing apache-brooklyn-cli dependency: glide
+==> Downloading https://linuxbrew.bintray.com/bottles/glide-0.12.3.x86_64_linux.bottle.tar.gz
+==> Pouring glide-0.12.3.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/glide/0.12.3: 6 files, 10MB
+==> Installing apache-brooklyn-cli
+==> Downloading https://github.com/apache/brooklyn-client/archive/rel/apache-brooklyn-0.11.0.tar.gz
+==> Downloading from https://codeload.github.com/apache/brooklyn-client/tar.gz/rel/apache-brooklyn-0.11.0
+==> glide install
+==> go install .../br
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall apache-brooklyn-cli`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/apache-brooklyn-cli/0.11.0: 6 files, 8MB, built in 11 seconds
+==> Determining apache-brooklyn-cli bottle rebuild...
+==> Bottling apache-brooklyn-cli-0.11.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if apache-brooklyn-cli-0.11.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./apache-brooklyn-cli-0.11.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "f333797eee27074979174dfd4718b28f4ff9cad1c9445b8ed374141cdcb5fb69" => :x86_64_linux
+  end
