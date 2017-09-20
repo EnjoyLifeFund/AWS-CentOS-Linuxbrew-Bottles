@@ -1,23 +1,16 @@
-==> Downloading https://github.com/ampl/mp/archive/3.1.0.tar.gz
-==> Downloading from https://codeload.github.com/ampl/mp/tar.gz/3.1.0
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ampl-mp/3.1.0_2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_SHARED_LIBS=True
-==> make all
+==> Downloading https://github.com/CopernicaMarketingSoftware/AMQP-CPP/archive/v2.7.4.tar.gz
+==> Downloading from https://codeload.github.com/CopernicaMarketingSoftware/AMQP-CPP/tar.gz/v2.7.4
+==> cmake -DBUILD_SHARED=ON -DCMAKE_MACOSX_RPATH=1 -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/amqp-cpp/2.7.4 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make
 ==> make install
-==> Downloading https://github.com/dpo/miniampl/archive/v1.0.tar.gz
-==> Downloading from https://codeload.github.com/dpo/miniampl/tar.gz/v1.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ampl-mp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ampl-mp/3.1.0_2: 72 files, 8.4MB, built in 64 minutes 41 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> Updated Formulae
-pandoc-citeproc
-
-==> Determining ampl-mp bottle rebuild...
-==> Bottling ampl-mp-3.1.0_2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ampl-mp-3.1.0_2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ampl-mp-3.1.0_2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall amqp-cpp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/amqp-cpp/2.7.4: 57 files, 2.3MB, built in 20 minutes 45 seconds
+==> Determining amqp-cpp bottle rebuild...
+==> Bottling amqp-cpp-2.7.4.x86_64_linux.bottle.1.tar.gz...
+./amqp-cpp-2.7.4.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "742ac55a898ab4f05c6d797557526b4474ac248a469591873c651df8b34c2936" => :x86_64_linux
+    sha256 "8fdfc5651ce39bf1c486dda28cf797b040414b4d63072f934f9c15cb182e2096" => :x86_64_linux
   end
