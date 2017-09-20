@@ -1,26 +1,21 @@
-==> Upgrading 1 outdated package, with result:
-cython 0.26.1
-==> Upgrading cython 
-==> Downloading https://files.pythonhosted.org/packages/68/41/2f259b62306268d9cf0d6434b4e83a2fb1785b34cfce27fdeeca3adffd0e/Cython-0.26.1.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cython/0.26.1/libexec --single-version-externally-managed --record=installed.txt
+==> Installing dependencies for goose: dep
+==> Installing goose dependency: dep
+==> Downloading https://linuxbrew.bintray.com/bottles/dep-0.3.0.x86_64_linux.bottle.tar.gz
+==> Pouring dep-0.3.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/dep/0.3.0: 6 files, 10.6MB
+==> Installing goose
+==> Downloading https://github.com/pressly/goose/archive/v2.1.0.tar.gz
+==> Downloading from https://codeload.github.com/pressly/goose/tar.gz/v2.1.0
+==> dep ensure
+==> go build -o /home/linuxbrew/.linuxbrew/Cellar/goose/2.1.0/bin/goose .../cmd/goose
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall cython`
-==> Caveats
-This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
-because this formula is mainly used internally by other formulae.
-Users are advised to use `pip` to install cython.
-
-If you need to have this software first in your PATH run:
-  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/cython/bin:$PATH"' >> ~/.bash_profile
-
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cython/0.26.1: 426 files, 23.0MB, built in 2 minutes 20 seconds
-==> Determining cython bottle rebuild...
-==> Bottling cython-0.26.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if cython-0.26.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./cython-0.26.1.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall goose`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/goose/2.1.0: 3 files, 11.0MB, built in 8 minutes 36 seconds
+==> Determining goose bottle rebuild...
+==> Bottling goose-2.1.0.x86_64_linux.bottle.2.tar.gz...
+==> Detecting if goose-2.1.0.x86_64_linux.bottle.2.tar.gz is relocatable...
+./goose-2.1.0.x86_64_linux.bottle.2.tar.gz
   bottle do
-    rebuild 1
-    sha256 "09f5a6ae810a1f169771232e607f6ac1abafd775c055c22afcf00f3c1f4b20a0" => :x86_64_linux
+    rebuild 2
+    sha256 "a8b6f7ca7f3a2de7c7c6baedf0c2a29daddb21eb4a432e19c0e61dd9d628b209" => :x86_64_linux
   end
