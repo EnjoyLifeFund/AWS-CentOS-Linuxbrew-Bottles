@@ -1,4 +1,37 @@
-==> Downloading https://github.com/lihaoyi/Ammonite/releases/download/1.0.2/2.12-1.0.2
-==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/29178282/de281ec0-8772-11e7-827d-340cada3488b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170919%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170919T220634Z&X-Amz-Expires=300&X-Amz-Signature=7d15582df92588867ae5c088aee5c342cc0cc0c68c03a22ab0df18096d2525ec&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3D2.12-1.0.2&response-content-type=application%2Foctet-stream
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ammonite-repl/1.0.2: 3 files, 37.1MB, built in 54 seconds
-This formula doesn't require compiling.
+==> Installing dependencies for analog: fontconfig, jpeg, libtiff, webp, gd
+==> Installing analog dependency: fontconfig
+==> Downloading https://linuxbrew.bintray.com/bottles/fontconfig-2.12.5.x86_64_linux.bottle.tar.gz
+==> Pouring fontconfig-2.12.5.x86_64_linux.bottle.tar.gz
+==> Regenerating font cache, this may take a while
+==> /home/linuxbrew/.linuxbrew/Cellar/fontconfig/2.12.5/bin/fc-cache -frv
+🍺  /home/linuxbrew/.linuxbrew/Cellar/fontconfig/2.12.5: 496 files, 5.6MB
+==> Installing analog dependency: jpeg
+==> Downloading https://linuxbrew.bintray.com/bottles/jpeg-9b.x86_64_linux.bottle.tar.gz
+==> Pouring jpeg-9b.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jpeg/9b: 21 files, 3.9MB
+==> Installing analog dependency: libtiff
+==> Downloading https://linuxbrew.bintray.com/bottles/libtiff-4.0.8_4.x86_64_linux.bottle.tar.gz
+==> Pouring libtiff-4.0.8_4.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libtiff/4.0.8_4: 247 files, 7.9MB
+==> Installing analog dependency: webp
+==> Downloading https://linuxbrew.bintray.com/bottles/webp-0.6.0_2.x86_64_linux.bottle.tar.gz
+==> Pouring webp-0.6.0_2.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/webp/0.6.0_2: 40 files, 14.8MB
+==> Installing analog dependency: gd
+==> Downloading https://linuxbrew.bintray.com/bottles/gd-2.2.5.x86_64_linux.bottle.tar.gz
+==> Pouring gd-2.2.5.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gd/2.2.5: 36 files, 3.3MB
+==> Installing analog
+==> Downloading https://mirrors.ocf.berkeley.edu/debian/pool/main/a/analog/analog_6.0.orig.tar.gz
+==> make CC=gcc-5 CFLAGS= DEFS='-DLANGDIR="/home/linuxbrew/.linuxbrew/Cellar/analog/6.0_1/share/analog/lang/"' -DHAVE_ZLIB LIBS=-lz -lm OS=UNIX
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall analog`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/analog/6.0_1: 370 files, 2.9MB, built in 4 minutes 38 seconds
+==> Determining analog bottle rebuild...
+==> Bottling analog-6.0_1.x86_64_linux.bottle.3.tar.gz...
+==> Detecting if analog-6.0_1.x86_64_linux.bottle.3.tar.gz is relocatable...
+./analog-6.0_1.x86_64_linux.bottle.3.tar.gz
+  bottle do
+    rebuild 3
+    sha256 "4889c6f4320d8cf6c5c12ab411ffa3ffb316198369125d2c7890e7b455cef02b" => :x86_64_linux
+  end
