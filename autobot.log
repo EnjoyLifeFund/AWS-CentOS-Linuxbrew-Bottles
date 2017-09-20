@@ -1,21 +1,23 @@
-==> Installing dependencies for goose: dep
-==> Installing goose dependency: dep
-==> Downloading https://linuxbrew.bintray.com/bottles/dep-0.3.0.x86_64_linux.bottle.tar.gz
-==> Pouring dep-0.3.0.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/dep/0.3.0: 6 files, 10.6MB
-==> Installing goose
-==> Downloading https://github.com/pressly/goose/archive/v2.1.0.tar.gz
-==> Downloading from https://codeload.github.com/pressly/goose/tar.gz/v2.1.0
-==> dep ensure
-==> go build -o /home/linuxbrew/.linuxbrew/Cellar/goose/2.1.0/bin/goose .../cmd/goose
+==> Downloading https://github.com/ampl/mp/archive/3.1.0.tar.gz
+==> Downloading from https://codeload.github.com/ampl/mp/tar.gz/3.1.0
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/ampl-mp/3.1.0_2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev -DBUILD_SHARED_LIBS=True
+==> make all
+==> make install
+==> Downloading https://github.com/dpo/miniampl/archive/v1.0.tar.gz
+==> Downloading from https://codeload.github.com/dpo/miniampl/tar.gz/v1.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall goose`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/goose/2.1.0: 3 files, 11.0MB, built in 8 minutes 36 seconds
-==> Determining goose bottle rebuild...
-==> Bottling goose-2.1.0.x86_64_linux.bottle.2.tar.gz...
-==> Detecting if goose-2.1.0.x86_64_linux.bottle.2.tar.gz is relocatable...
-./goose-2.1.0.x86_64_linux.bottle.2.tar.gz
+You can run it manually using `brew postinstall ampl-mp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ampl-mp/3.1.0_2: 72 files, 8.4MB, built in 64 minutes 41 seconds
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+pandoc-citeproc
+
+==> Determining ampl-mp bottle rebuild...
+==> Bottling ampl-mp-3.1.0_2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ampl-mp-3.1.0_2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ampl-mp-3.1.0_2.x86_64_linux.bottle.1.tar.gz
   bottle do
-    rebuild 2
-    sha256 "a8b6f7ca7f3a2de7c7c6baedf0c2a29daddb21eb4a432e19c0e61dd9d628b209" => :x86_64_linux
+    rebuild 1
+    sha256 "742ac55a898ab4f05c6d797557526b4474ac248a469591873c651df8b34c2936" => :x86_64_linux
   end
