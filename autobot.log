@@ -1,16 +1,12 @@
-==> Downloading http://www.winfield.demon.nl/linux/antiword-0.37.tar.gz
-==> make CC=gcc-5 LD=gcc-5 CFLAGS= -DNDEBUG GLOBAL_INSTALL_DIR=/home/linuxbrew/.linuxbrew/Cellar/antiword/0.37/bin GLOBAL_RESOURCES_DIR=/home/linuxbrew/.linuxbrew/Cellar/antiword/0.37/share/antiword
+==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/aoeui/aoeui-1.6.tgz
+==> make INST_DIR=/home/linuxbrew/.linuxbrew/Cellar/aoeui/1.6 install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall antiword`
-==> Caveats
-You can install mapping files in ~/.antiword
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/antiword/0.37: 40 files, 654.7KB, built in 11 seconds
-==> Determining antiword bottle rebuild...
-==> Bottling antiword-0.37.x86_64_linux.bottle.1.tar.gz...
-./antiword-0.37.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall aoeui`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/aoeui/1.6: 12 files, 240.8KB, built in 6 seconds
+==> Determining aoeui bottle rebuild...
+==> Bottling aoeui-1.6.x86_64_linux.bottle.1.tar.gz...
+./aoeui-1.6.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "cc90c4bb1757a8ef9d24a34cf43c3c7f8c2f3c409ba7ef2162b5b49f002b3146" => :x86_64_linux
+    sha256 "21c431bb4b29bd9eb496d562e0890372832b2a2154de4c3b9ef05a99c0c8a3a2" => :x86_64_linux
   end
