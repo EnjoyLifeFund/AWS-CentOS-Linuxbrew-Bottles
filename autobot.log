@@ -1,4 +1,8 @@
-==> Downloading https://bitbucket.org/amdatu/amdatu-bootstrap/downloads/bootstrap-bin-r9.zip
-==> Downloading from https://bbuseruploads.s3.amazonaws.com/13771e4b-3e80-4161-8d6e-df013b6693d3/downloads/aa7d6e35-ff51-43d8-b360-a88761a527c5/bootstrap-bin-r9.zip?Signature=jLFuWjmWenepwWOShPLIiZNXfz8%3D&Expires=1505860472&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22bootstrap-bin-r9.zip%22
-🍺  /home/linuxbrew/.linuxbrew/Cellar/amdatu-bootstrap/9: 8 files, 36.6MB, built in 52 seconds
-This formula doesn't require compiling.
+==> Determining jq bottle rebuild...
+==> Bottling jq-1.5_2.x86_64_linux.bottle.1.tar.gz...
+./jq-1.5_2.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "53fd54d4f0803e9d250483fd2cf3c6a885865f795351e786c974ea782a1b53b5" => :x86_64_linux
+  end
