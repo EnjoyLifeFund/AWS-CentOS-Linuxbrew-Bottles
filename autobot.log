@@ -1,8 +1,213 @@
-==> Determining sdl bottle rebuild...
-==> Bottling sdl-1.2.15.x86_64_linux.bottle.4.tar.gz...
-./sdl-1.2.15.x86_64_linux.bottle.4.tar.gz
+==> Downloading https://releases.ansible.com/ansible/ansible-2.3.2.0.tar.gz
+==> Downloading https://files.pythonhosted.org/packages/d4/0c/9840c08189e030873387a73b90ada981885010dd9aea134d6de30cd24cb8/virtualenv-15.1.0.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/tmp/ansible--homebrew-virtualenv-20170920-13984-zyil9d/target --single-version-externally-managed --record=installed.txt
+==> python -s /tmp/ansible--homebrew-virtualenv-20170920-13984-zyil9d/target/bin/virtualenv -p python /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec
+==> Downloading https://files.pythonhosted.org/packages/d5/d6/f2bf137d71e4f213b575faa9eb426a8775732432edb67588a8ee836ecb80/pbr-3.1.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pbr-20170920-13984-1vcct9n/pbr-3.1.1
+==> Downloading https://files.pythonhosted.org/packages/a4/09/c47e57fc9c7062b4e83b075d418800d322caa87ec0ac21e6308bd3a2d519/pytz-2017.2.zip
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pytz-20170920-13984-cg935t/pytz-2017.2
+==> Downloading https://files.pythonhosted.org/packages/b0/9e/7088f6165c40c46416aff434eb806c1d64ad6ec6dbc201f5ad4d0484704e/pyOpenSSL-17.2.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pyOpenSSL-20170920-13984-fmtbeu/pyOpenSSL-17.2.0
+==> Downloading https://files.pythonhosted.org/packages/a2/a7/ad1c1c48e35dc7545dab1a9c5513f49d5fa3b5015627200d2be27576c2a0/ndg_httpsclient-0.4.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--ndg-httpsclient-20170920-13984-r1qyso/ndg_httpsclient-0.4.2
+==> Downloading https://files.pythonhosted.org/packages/3a/cb/46b76381ebda237c1b08d1c94394659679a4f1bd6475fe3703b303830ee0/Babel-2.5.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--Babel-20170920-13984-1grycdu/Babel-2.5.0
+==> Downloading https://files.pythonhosted.org/packages/5f/bd/5815d4d925a2b8cbbb4b4960f018441b0c65f24ba29f3bdcfb3c8218a307/Jinja2-2.8.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--Jinja2-20170920-13984-1dqor0f/Jinja2-2.8.1
+==> Downloading https://files.pythonhosted.org/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/MarkupSafe-1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--MarkupSafe-20170920-13984-159jk7d/MarkupSafe-1.0
+==> Downloading https://files.pythonhosted.org/packages/ef/30/4b0746848746ed5941f052479e7c23d2b56d174b82f4fd34a25e389831f5/prettytable-0.7.2.tar.bz2
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--PrettyTable-20170920-13984-o0mpke/prettytable-0.7.2
+==> Downloading https://files.pythonhosted.org/packages/8d/f3/02605b056e465bf162508c4d1635a2bccd9abd1ee3ed2a1bb4e9676eac33/PyNaCl-1.1.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--PyNaCl-20170920-13984-efno01/PyNaCl-1.1.2
+==> Downloading https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--PyYAML-20170920-13984-1qrv4gg/PyYAML-3.12
+==> Downloading https://files.pythonhosted.org/packages/a8/17/87d42df2558518bc17ba33de876e2ce12bc94dd785e0ccb75f8ffe81142b/apache-libcloud-2.1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--apache-libcloud-20170920-13984-1j22n4o/apache-libcloud-2.1.0
+==> Downloading https://files.pythonhosted.org/packages/48/69/d87c60746b393309ca30761f8e2b49473d43450b150cb08f3c6df5c11be5/appdirs-1.4.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--appdirs-20170920-13984-u5plhy/appdirs-1.4.3
+==> Downloading https://files.pythonhosted.org/packages/67/14/5d66588868c4304f804ebaff9397255f6ec5559e46724c2496e0f26e68d6/asn1crypto-0.22.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--asn1crypto-20170920-13984-1jwxz6g/asn1crypto-0.22.0
+==> Downloading https://files.pythonhosted.org/packages/76/21/2dc61178a2038a5cb35d14b61467c6ac632791ed05131dda72c20e7b9e23/backports.ssl_match_hostname-3.5.0.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--backports.ssl_match_hostname-20170920-13984-nc1pzu/backports.ssl_match_hostname-3.5.0.1
+==> Downloading https://files.pythonhosted.org/packages/58/e9/6d7f1d883d8c5876470b5d187d72c04f2a9954d61e71e7eb5d2ea2a50442/bcrypt-3.1.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--bcrypt-20170920-13984-bgtif4/bcrypt-3.1.3
+==> Downloading https://files.pythonhosted.org/packages/66/e7/fe1db6a5ed53831b53b8a6695a8f134a58833cadb5f2740802bc3730ac15/boto-2.48.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--boto-20170920-13984-1ho12i7/boto-2.48.0
+==> Downloading https://files.pythonhosted.org/packages/53/c6/06b4fc6f371434fde4a0a9741b020910196eb37cf144084933b6574856c7/boto3-1.4.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--boto3-20170920-13984-9uhcy7/boto3-1.4.6
+==> Downloading https://files.pythonhosted.org/packages/9d/8f/41502357cf2b665c58a52124deb956bc962fc004c4b5ae0d1d02f7ee7008/botocore-1.6.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--botocore-20170920-13984-ekzc8x/botocore-1.6.6
+==> Downloading https://files.pythonhosted.org/packages/20/d0/3f7a84b0c5b89e94abbd073a5f00c7176089f526edb056686751d5064cbd/certifi-2017.7.27.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--certifi-20170920-13984-51n4zm/certifi-2017.7.27.1
+==> Downloading https://files.pythonhosted.org/packages/5b/b9/790f8eafcdab455bcd3bd908161f802c9ce5adbf702a83aa7712fcc345b7/cffi-1.10.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--cffi-20170920-13984-jrs932/cffi-1.10.0
+==> Downloading https://files.pythonhosted.org/packages/fc/bb/a5768c230f9ddb03acc9ef3f0d4a3cf93462473795d18e9535498c8f929d/chardet-3.0.4.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--chardet-20170920-13984-10u8sl2/chardet-3.0.4
+==> Downloading https://files.pythonhosted.org/packages/9e/26/7db86b6fb7bcf335e691a274b8f5141006ea87e7783e43d7ef5a498a09da/cliff-2.8.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--cliff-20170920-13984-pmsu30/cliff-2.8.0
+==> Downloading https://files.pythonhosted.org/packages/e6/34/118c4d669fa704732d22344b6a014922c552b794317f6f048012455cbdfe/cmd2-0.7.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--cmd2-20170920-13984-1feei26/cmd2-0.7.6
+==> Downloading https://files.pythonhosted.org/packages/9c/1a/0fc8cffb04582f9ffca61b15b0681cf2e8588438e55f61403eb9880bd8e0/cryptography-2.0.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--cryptography-20170920-13984-cmg4g2/cryptography-2.0.3
+==> Downloading https://files.pythonhosted.org/packages/03/53/55f00f682f3e692a85be2bf4e227a77f67f6e504d9f505e0423590bdefa6/debtcollector-1.17.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--debtcollector-20170920-13984-1cd09x0/debtcollector-1.17.0
+==> Downloading https://files.pythonhosted.org/packages/bb/e0/f6e41e9091e130bf16d4437dabbac3993908e4d6485ecbc985ef1352db94/decorator-4.1.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--decorator-20170920-13984-axzu73/decorator-4.1.2
+==> Downloading https://files.pythonhosted.org/packages/8c/e3/e5c66eba8fa2fd567065fa70ada98b990f449f74fb812b408fa7aafe82c9/deprecation-1.0.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--deprecation-20170920-13984-1o898zj/deprecation-1.0.1
+==> Downloading https://files.pythonhosted.org/packages/e4/96/a598fa35f8a625bc39fed50cdbe3fd8a52ef215ef8475c17cabade6656cb/dnspython-1.15.0.zip
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--dnspython-20170920-13984-bm53j9/dnspython-1.15.0
+==> Downloading https://files.pythonhosted.org/packages/fa/2d/906afc44a833901fc6fed1a89c228e5c88fbfc6bd2f3d2f0497fdfb9c525/docker-py-1.10.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--docker-py-20170920-13984-1bv8vm1/docker-py-1.10.6
+==> Downloading https://files.pythonhosted.org/packages/95/2e/3c99b8707a397153bc78870eb140c580628d7897276960da25d8a83c4719/docker-pycreds-0.2.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--docker-pycreds-20170920-13984-a104f5/docker-pycreds-0.2.1
+==> Downloading https://files.pythonhosted.org/packages/84/f4/5771e41fdf52aabebbadecc9381d11dea0fa34e4759b4071244fa094804c/docutils-0.14.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--docutils-20170920-13984-a6qmlf/docutils-0.14
+==> Downloading https://files.pythonhosted.org/packages/b6/3d/35c05ca01c070bb70d9d422f2c4858ecb021b05b21af438fec5ccd7b945c/dogpile.cache-0.6.4.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--dogpile.cache-20170920-13984-10yxd9n/dogpile.cache-0.6.4
+==> Downloading https://files.pythonhosted.org/packages/bf/3e/31d502c25302814a7c2f1d3959d2a3b3f78e509002ba91aea64993936876/enum34-1.1.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--enum34-20170920-13984-vefwp9/enum34-1.1.6
+==> Downloading https://files.pythonhosted.org/packages/94/4a/db842e7a0545de1cdb0439bb80e6e42dfe82aaeaadd4072f2263a4fbed23/funcsigs-1.0.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--funcsigs-20170920-13984-sf1n27/funcsigs-1.0.2
+==> Downloading https://files.pythonhosted.org/packages/c5/60/6ac26ad05857c601308d8fb9e87fa36d0ebf889423f47c3502ef034365db/functools32-3.2.3-2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--functools32-20170920-13984-frfn26/functools32-3.2.3-2
+==> Downloading https://files.pythonhosted.org/packages/cc/26/b61e3a4eb50653e8a7339d84eeaa46d1e93b92951978873c220ae64d0733/futures-3.1.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--futures-20170920-13984-1f111sx/futures-3.1.1
+==> Downloading https://files.pythonhosted.org/packages/f4/bd/0467d62790828c23c47fc1dfa1b1f052b24efdf5290f071c7a91d0d82fd3/idna-2.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--idna-20170920-13984-1fo88k/idna-2.6
+==> Downloading https://files.pythonhosted.org/packages/4e/13/774faf38b445d0b3a844b65747175b2e0500164b7c28d78e34987a5bfe06/ipaddress-1.0.18.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--ipaddress-20170920-13984-phkmo4/ipaddress-1.0.18
+==> Downloading https://files.pythonhosted.org/packages/45/13/3db24895497345fb44c4248c08b16da34a9eb02643cea2754b21b5ed08b0/iso8601-0.1.12.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--iso8601-20170920-13984-1a6qk5b/iso8601-0.1.12
+==> Downloading https://files.pythonhosted.org/packages/e5/21/795b7549397735e911b032f255cff5fb0de58f96da794274660bca4f58ef/jmespath-0.9.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--jmespath-20170920-13984-skllvq/jmespath-0.9.3
+==> Downloading https://files.pythonhosted.org/packages/36/de/499bea7aac917f86eb5be148f631c3ddced4e60c8d119d63939c53a5ab5b/jsonpatch-1.16.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--jsonpatch-20170920-13984-1oeqmnn/jsonpatch-1.16
+==> Downloading https://files.pythonhosted.org/packages/f6/36/6bdd302303e8bc7c25102dbc1eabb3e3d97f57b0f8f414f4da7ea7ab9dd8/jsonpointer-1.10.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--jsonpointer-20170920-13984-af475v/jsonpointer-1.10
+==> Downloading https://files.pythonhosted.org/packages/58/b9/171dbb07e18c6346090a37f03c7e74410a1a56123f847efed59af260a298/jsonschema-2.6.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--jsonschema-20170920-13984-1tot9xr/jsonschema-2.6.0
+==> Downloading https://files.pythonhosted.org/packages/31/e2/5f31a88e3fa4caadbc6fb921bf83dfa829de810128f167b1394fbf7bff68/junos-eznc-2.1.5.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--junos-eznc-20170920-13984-1xpzoue/junos-eznc-2.1.5
+==> Downloading https://files.pythonhosted.org/packages/80/b3/a1ffc5ea763c84780a9acfaa4f69a98f6c974eaf297e20d9d3648ef7d95b/jxmlease-1.0.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--jxmlease-20170920-13984-ewyyd/jxmlease-1.0.1
+==> Downloading https://files.pythonhosted.org/packages/60/84/563732a068310ee9a8c3626a037efea22b3a926431d91f1ec991db89a70e/keystoneauth1-3.1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--keystoneauth1-20170920-13984-1v8hnfj/keystoneauth1-3.1.0
+==> Downloading https://files.pythonhosted.org/packages/20/b3/9f245de14b7696e2d2a386c0b09032a2ff6625270761d6543827e667d8de/lxml-3.8.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--lxml-20170920-13984-h2yfgw/lxml-3.8.0
+==> Downloading https://files.pythonhosted.org/packages/96/b3/3e9fa0bdf132a971571cbf0e3f0c8b38834f4f7af8ca9523794f4f5895e0/monotonic-1.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--monotonic-20170920-13984-77cbny/monotonic-1.3
+==> Downloading https://files.pythonhosted.org/packages/21/27/8a1d82041c7a2a51fcc73675875a5f9ea06c2663e02fcfeb708be1d081a0/msgpack-python-0.4.8.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--msgpack-python-20170920-13984-ntecyd/msgpack-python-0.4.8
+==> Downloading https://files.pythonhosted.org/packages/92/58/c17cf679a2b9b65541cc71ba13a950289b7d34dd0967e34b8816a4d87044/munch-2.2.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--munch-20170920-13984-1fve19u/munch-2.2.0
+==> Downloading https://files.pythonhosted.org/packages/e9/cf/cb131bcaf9b31f8d9d1b9ec3aa9a861dd72a7269a9ff07217b60157fa526/ncclient-0.5.3.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--ncclient-20170920-13984-14pcowd/ncclient-0.5.3
+==> Downloading https://files.pythonhosted.org/packages/0c/13/7cbb180b52201c07c796243eeff4c256b053656da5cfe3916c3f5b57b3a0/netaddr-0.7.19.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--netaddr-20170920-13984-11uk23w/netaddr-0.7.19
+==> Downloading https://files.pythonhosted.org/packages/72/01/ba076082628901bca750bf53b322a8ff10c1d757dc29196a8e6082711c9d/netifaces-0.10.6.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--netifaces-20170920-13984-ybe70x/netifaces-0.10.6
+==> Downloading https://files.pythonhosted.org/packages/36/75/9f1a15858fe3047822deacfb298e9a7b932cfa760f620c60af5aab44343a/ntlm-auth-1.0.5.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--ntlm-auth-20170920-13984-ei18ay/ntlm-auth-1.0.5
+==> Downloading https://files.pythonhosted.org/packages/5e/3e/4872d06e712e474573d4cfd76ea79062e4c438011e17663e9525033d48f6/openstacksdk-0.9.17.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--openstacksdk-20170920-13984-m91eoe/openstacksdk-0.9.17
+==> Downloading https://files.pythonhosted.org/packages/53/25/ef88e8e45db141faa9598fbf7ad0062df8f50f881a36ed6a0073e1572126/ordereddict-1.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--ordereddict-20170920-13984-27gjy1/ordereddict-1.1
+==> Downloading https://files.pythonhosted.org/packages/84/18/7a950c23631fccd09aa33832df52b7bfce2cf2ea104959a14c04512b19db/os-client-config-1.28.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--os-client-config-20170920-13984-yxrtg2/os-client-config-1.28.0
+==> Downloading https://files.pythonhosted.org/packages/a1/2b/12e065299d6d4dc5279476e9df056cc218715bf9e5261c3c24716f3190d5/osc-lib-1.7.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--osc-lib-20170920-13984-n5dy7d/osc-lib-1.7.0
+==> Downloading https://files.pythonhosted.org/packages/ff/86/51b3b2a094129fc70723d64d0784b4a6e5f4be97749e314ec394d2e8ec26/oslo.config-4.11.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--oslo.config-20170920-13984-9p1ff/oslo.config-4.11.0
+==> Downloading https://files.pythonhosted.org/packages/37/6b/1a9ff9451a1de4b9b140d05b0bf7db2fa551d099aaa7a630e26c41806d68/oslo.i18n-3.17.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--oslo.i18n-20170920-13984-xsmiht/oslo.i18n-3.17.0
+==> Downloading https://files.pythonhosted.org/packages/e6/e8/00de1a1786b397ec82c971a0c650b8961d6d2011332b05edad7323128b19/oslo.serialization-2.20.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--oslo.serialization-20170920-13984-4e0vq8/oslo.serialization-2.20.0
+==> Downloading https://files.pythonhosted.org/packages/19/ea/3743c0405e50d9d18ac57c74830526a18474a7024d4d677c2580983769ea/oslo.utils-3.28.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--oslo.utils-20170920-13984-10tqc6l/oslo.utils-3.28.0
+==> Downloading https://files.pythonhosted.org/packages/d1/0b/c8bc96c79bbda0bcc9f2912389fa59789bb8e7e161f24b01082b4c3f948d/paramiko-2.2.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--paramiko-20170920-13984-ygr2au/paramiko-2.2.1
+==> Downloading https://files.pythonhosted.org/packages/25/4b/6fbfc66aabb3017cd8c3bd97b37f769d7503ead2899bf76e570eb91270de/passlib-1.7.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--passlib-20170920-13984-c9ui0f/passlib-1.7.1
+==> Downloading https://files.pythonhosted.org/packages/24/7e/3b1450db76eb48a54ea661a43ae00950275e11840042c5217bd3b47b478e/positional-1.2.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--positional-20170920-13984-1dpcf4k/positional-1.2.1
+==> Downloading https://files.pythonhosted.org/packages/17/a2/266818077dbd002d53ebe5aaaa05a04786256cea8dba1899ac0b832ef028/pyasn1-0.3.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pyasn1-20170920-13984-e10m6o/pyasn1-0.3.2
+==> Downloading https://files.pythonhosted.org/packages/8c/2d/aad7f16146f4197a11f8e91fb81df177adcc2073d36a17b1491fd09df6ed/pycparser-2.18.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pycparser-20170920-13984-1krnyrg/pycparser-2.18
+==> Downloading https://files.pythonhosted.org/packages/60/db/645aa9af249f059cc3a368b118de33889219e0362141e75d4eaf6f80f163/pycrypto-2.6.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pycrypto-20170920-13984-135ntse/pycrypto-2.6.1
+==> Downloading https://files.pythonhosted.org/packages/3c/ec/a94f8cf7274ea60b5413df054f82a8980523efd712ec55a59e7c3357cf7c/pyparsing-2.2.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pyparsing-20170920-13984-xb9bfk/pyparsing-2.2.0
+==> Downloading https://files.pythonhosted.org/packages/7b/a5/48eaa1f2d77f900679e9759d2c9ab44895e66e9612f7f6b5333273b68f29/pyperclip-1.5.27.zip
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pyperclip-20170920-13984-1941py/pyperclip-1.5.27
+==> Downloading https://files.pythonhosted.org/packages/cc/74/11b04703ec416717b247d789103277269d567db575d2fd88f25d9767fe3d/pyserial-3.4.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pyserial-20170920-13984-132e0sm/pyserial-3.4
+==> Downloading https://files.pythonhosted.org/packages/82/78/fda6bfdf95b6ea889ec4a39cbd29319bb1fad9cdb98fb370a5e89cb6fd01/python-cinderclient-3.1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--python-cinderclient-20170920-13984-1kbhyni/python-cinderclient-3.1.0
+==> Downloading https://files.pythonhosted.org/packages/54/bb/f1db86504f7a49e1d9b9301531181b00a1c7325dc85a29160ee3eaa73a54/python-dateutil-2.6.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--python-dateutil-20170920-13984-s54p13/python-dateutil-2.6.1
+==> Downloading https://files.pythonhosted.org/packages/3f/eb/77366b3c5a568b1a205fb3916488219ab6f44d129c455b349642ac5ecf11/python-glanceclient-2.8.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--python-glanceclient-20170920-13984-1f9341g/python-glanceclient-2.8.0
+==> Downloading https://files.pythonhosted.org/packages/6e/b4/000ba45dc5ad7911be037c91c1ee6a0baacada58a9b357d81bd10610eab8/python-ironicclient-1.16.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--python-ironicclient-20170920-13984-c4tl2/python-ironicclient-1.16.0
+==> Downloading https://files.pythonhosted.org/packages/c8/14/3ffb68671fef927fa5b60f21c43a04a4a007acbe939a26ba08b197fea6b3/python-keyczar-0.716.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--python-keyczar-20170920-13984-3pd05i/python-keyczar-0.716
+==> Downloading https://files.pythonhosted.org/packages/a4/a8/b8a83375ee028a0bd28acfcbb9bba20ab27ae2e7e513553e0bc1b901a4e4/python-keystoneclient-3.13.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--python-keystoneclient-20170920-13984-hr22c8/python-keystoneclient-3.13.0
+==> Downloading https://files.pythonhosted.org/packages/36/01/62c0a5b7b96b3c8a22fc758cf90d8e0798790dfce5e32380587ea499bca9/python-neutronclient-6.5.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--python-neutronclient-20170920-13984-epl4mw/python-neutronclient-6.5.0
+==> Downloading https://files.pythonhosted.org/packages/63/28/ba067a0c726bac8d64b16741f9c5f5b5f15d9e81ad8642dcf41339cdee26/python-novaclient-9.1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--python-novaclient-20170920-13984-1cryiku/python-novaclient-9.1.0
+==> Downloading https://files.pythonhosted.org/packages/e1/a6/25eb5bbb1064bd4203771fd504a717341fcd7d5c7fb9d91beab966d41191/python-openstackclient-3.12.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--python-openstackclient-20170920-13984-1tj3vmo/python-openstackclient-3.12.0
+==> Downloading https://files.pythonhosted.org/packages/0b/ca/d0ed22845185fdceb24a1e13811a993e805df9a147d223311061d2e294a7/pywinrm-0.2.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--pywinrm-20170920-13984-ho8yls/pywinrm-0.2.2
+==> Downloading https://files.pythonhosted.org/packages/b0/e1/eab4fc3752e3d240468a8c0b284607899d2fbfb236a56b7377a329aa8d09/requests-2.18.4.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--requests-20170920-13984-1p6odq9/requests-2.18.4
+==> Downloading https://files.pythonhosted.org/packages/e8/96/e1a02118867a47f7618df891e5fbecd7e50cafb30b42f1429a2ed5d268ce/requests_ntlm-1.0.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--requests_ntlm-20170920-13984-7i7m5w/requests_ntlm-1.0.0
+==> Downloading https://files.pythonhosted.org/packages/86/36/e8e639fc915ac199f98adfe2bcb8f1bf438681d9020660824b373de0c141/requestsexceptions-1.3.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--requestsexceptions-20170920-13984-1c2atzj/requestsexceptions-1.3.0
+==> Downloading https://files.pythonhosted.org/packages/4b/f6/8f0a24e50454494b0736fe02e6617e7436f2b30148b8f062462177e2ca2d/rfc3986-1.1.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--rfc3986-20170920-13984-ybh73j/rfc3986-1.1.0
+==> Downloading https://files.pythonhosted.org/packages/8b/13/517e8ec7c13f0bb002be33fbf53c4e3198c55bb03148827d72064426fe6e/s3transfer-0.1.10.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--s3transfer-20170920-13984-1vmmgyl/s3transfer-0.1.10
+==> Downloading https://files.pythonhosted.org/packages/1d/a9/618f1e40e30c69ffab668493953e74e6c266f383af6e34e1b8f089e41139/scp-0.10.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--scp-20170920-13984-1s63lsr/scp-0.10.2
+==> Downloading https://files.pythonhosted.org/packages/83/c7/b83ce36d82a98c2a734dc6faf6ad4274f90746ddf50e8baefb2f654d8fcd/shade-1.22.2.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--shade-20170920-13984-4swewu/shade-1.22.2
+==> Downloading https://files.pythonhosted.org/packages/08/48/c97b668d6da7d7bebe7ea1817a6f76394b0ec959cb04214ca833c34359df/simplejson-3.11.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--simplejson-20170920-13984-7dwmxu/simplejson-3.11.1
+==> Downloading https://files.pythonhosted.org/packages/b3/b2/238e2590826bfdd113244a40d9d3eb26918bd798fc187e2360a8367068db/six-1.10.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--six-20170920-13984-c2j51z/six-1.10.0
+==> Downloading https://files.pythonhosted.org/packages/08/58/e21f4691e8e75a290bdbfa366f06b9403c653642ef31f879e07f6f9ad7db/stevedore-1.25.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--stevedore-20170920-13984-1tmd2s1/stevedore-1.25.0
+==> Downloading https://files.pythonhosted.org/packages/6f/a4/691ab63b17505a26096608cc309960b5a6bdf39e4ba1a793d5f9b1a53270/unicodecsv-0.14.1.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--unicodecsv-20170920-13984-10gc1vi/unicodecsv-0.14.1
+==> Downloading https://files.pythonhosted.org/packages/ee/11/7c59620aceedcc1ef65e156cc5ce5a24ef87be4107c2b74458464e437a5d/urllib3-1.22.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--urllib3-20170920-13984-v8u09f/urllib3-1.22
+==> Downloading https://files.pythonhosted.org/packages/0f/d4/408b936a3d9214b7685c35936bb59d9254c70ff319ee6a837b9efcf5615e/warlock-1.2.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--warlock-20170920-13984-s8947r/warlock-1.2.0
+==> Downloading https://files.pythonhosted.org/packages/06/19/f00725a8aee30163a7f257092e356388443034877c101757c1466e591bf8/websocket_client-0.44.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--websocket-client-20170920-13984-12bvqtx/websocket_client-0.44.0
+==> Downloading https://files.pythonhosted.org/packages/a0/47/66897906448185fcb77fc3c2b1bc20ed0ecca81a0f2f88eda3fc5a34fc3d/wrapt-1.10.11.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--wrapt-20170920-13984-18j7tgu/wrapt-1.10.11
+==> Downloading https://files.pythonhosted.org/packages/57/17/a6acddc5f5993ea6eaf792b2e6c3be55e3e11f3b85206c818572585f61e1/xmltodict-0.11.0.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--xmltodict-20170920-13984-9ydhr5/xmltodict-0.11.0
+==> Downloading https://files.pythonhosted.org/packages/39/d9/6f31d35a8721364f1a3ac07dfe6f1bec4839c910a8b1dc14c9206e425d3c/zabbix-api-0.4.tar.gz
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible--zabbix-api-20170920-13984-2kdlkn/zabbix-api-0.4
+==> /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1/libexec/bin/pip install -v --no-deps --no-binary :all: --ignore-installed /tmp/ansible-20170920-13984-1lves6i/ansible-2.3.2.0
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ansible`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ansible/2.3.2.0_1: 17,897 files, 190MB, built in 6 minutes 37 seconds
+==> Determining ansible bottle rebuild...
+==> Bottling ansible-2.3.2.0_1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ansible-2.3.2.0_1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ansible-2.3.2.0_1.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 4
-    sha256 "880e20b9bec8ae73194d8ca42521926d755358e49f4d3113e2462a7735aa968f" => :x86_64_linux
+    rebuild 1
+    sha256 "24f69caba6c22f8ad2bd617bbb399aa9956c8d5b092e2c9eb004fb41a56326fa" => :x86_64_linux
   end
