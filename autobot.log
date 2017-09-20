@@ -1,21 +1,26 @@
-==> Downloading https://github.com/aws/amazon-ecs-cli/archive/v0.6.4.tar.gz
-==> Downloading from https://codeload.github.com/aws/amazon-ecs-cli/tar.gz/v0.6.4
-==> make build
+==> Upgrading 1 outdated package, with result:
+cython 0.26.1
+==> Upgrading cython 
+==> Downloading https://files.pythonhosted.org/packages/68/41/2f259b62306268d9cf0d6434b4e83a2fb1785b34cfce27fdeeca3adffd0e/Cython-0.26.1.tar.gz
+==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/cython/0.26.1/libexec --single-version-externally-managed --record=installed.txt
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall amazon-ecs-cli`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/amazon-ecs-cli/0.6.4: 7 files, 14.4MB, built in 8 minutes 32 seconds
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> Updated Formulae
-imagemagick
-imagemagick@6
+You can run it manually using `brew postinstall cython`
+==> Caveats
+This formula is keg-only, which means it was not symlinked into /home/linuxbrew/.linuxbrew,
+because this formula is mainly used internally by other formulae.
+Users are advised to use `pip` to install cython.
 
-==> Determining amazon-ecs-cli bottle rebuild...
-==> Bottling amazon-ecs-cli-0.6.4.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if amazon-ecs-cli-0.6.4.x86_64_linux.bottle.1.tar.gz is relocatable...
-./amazon-ecs-cli-0.6.4.x86_64_linux.bottle.1.tar.gz
+If you need to have this software first in your PATH run:
+  echo 'export PATH="/home/linuxbrew/.linuxbrew/opt/cython/bin:$PATH"' >> ~/.bash_profile
+
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cython/0.26.1: 426 files, 23.0MB, built in 2 minutes 20 seconds
+==> Determining cython bottle rebuild...
+==> Bottling cython-0.26.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if cython-0.26.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./cython-0.26.1.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "bad5d08c7b216246054db359d095decd6f8af0b4819b19ce477badd792d98502" => :x86_64_linux
+    sha256 "09f5a6ae810a1f169771232e607f6ac1abafd775c055c22afcf00f3c1f4b20a0" => :x86_64_linux
   end
