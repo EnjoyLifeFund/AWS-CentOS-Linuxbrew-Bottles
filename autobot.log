@@ -1,12 +1,4 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/aoeui/aoeui-1.6.tgz
-==> make INST_DIR=/home/linuxbrew/.linuxbrew/Cellar/aoeui/1.6 install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall aoeui`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/aoeui/1.6: 12 files, 240.8KB, built in 6 seconds
-==> Determining aoeui bottle rebuild...
-==> Bottling aoeui-1.6.x86_64_linux.bottle.1.tar.gz...
-./aoeui-1.6.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "21c431bb4b29bd9eb496d562e0890372832b2a2154de4c3b9ef05a99c0c8a3a2" => :x86_64_linux
-  end
+==> Downloading https://bitbucket.org/amdatu/amdatu-bootstrap/downloads/bootstrap-bin-r9.zip
+==> Downloading from https://bbuseruploads.s3.amazonaws.com/13771e4b-3e80-4161-8d6e-df013b6693d3/downloads/aa7d6e35-ff51-43d8-b360-a88761a527c5/bootstrap-bin-r9.zip?Signature=jLFuWjmWenepwWOShPLIiZNXfz8%3D&Expires=1505860472&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=null&response-content-disposition=attachment%3B%20filename%3D%22bootstrap-bin-r9.zip%22
+🍺  /home/linuxbrew/.linuxbrew/Cellar/amdatu-bootstrap/9: 8 files, 36.6MB, built in 52 seconds
+This formula doesn't require compiling.
