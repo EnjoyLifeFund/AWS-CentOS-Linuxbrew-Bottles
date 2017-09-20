@@ -1,14 +1,26 @@
-==> Installing dependencies for ansiweather: oniguruma, jq
-==> Installing ansiweather dependency: oniguruma
-==> Downloading https://linuxbrew.bintray.com/bottles/oniguruma-6.6.1.x86_64_linux.bottle.tar.gz
-==> Pouring oniguruma-6.6.1.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/oniguruma/6.6.1: 18 files, 3.7MB
-==> Installing ansiweather dependency: jq
-==> Downloading https://linuxbrew.bintray.com/bottles/jq-1.5_2.x86_64_linux.bottle.tar.gz
-==> Pouring jq-1.5_2.x86_64_linux.bottle.tar.gz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jq/1.5_2: 19 files, 1MB
-==> Installing ansiweather
-==> Downloading https://github.com/fcambus/ansiweather/archive/1.11.tar.gz
-==> Downloading from https://codeload.github.com/fcambus/ansiweather/tar.gz/1.11
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ansiweather/1.11: 7 files, 21.4KB, built in 6 seconds
-This formula doesn't require compiling.
+==> Installing dependencies for ant: jdk
+==> Installing ant dependency: jdk
+==> Downloading https://linuxbrew.bintray.com/bottles/jdk-1.8.0-144.x86_64_linux.bottle.tar.gz
+==> Pouring jdk-1.8.0-144.x86_64_linux.bottle.tar.gz
+==> Caveats
+By installing and using JDK you agree to the
+Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX
+http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/jdk/1.8.0-144: 1,628 files, 360.7MB
+==> Installing ant
+==> Downloading https://www.apache.org/dyn/closer.cgi?path=ant/binaries/apache-ant-1.10.1-bin.tar.xz
+==> Best Mirror http://mirror.stjschools.org/public/apache/ant/binaries/apache-ant-1.10.1-bin.tar.xz
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall ant`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/ant/1.10.1: 1,628 files, 36.9MB, built in 5 seconds
+==> Determining ant bottle rebuild...
+==> Bottling ant-1.10.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if ant-1.10.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./ant-1.10.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "d898140a23e45c4f80e4a8282b7aa384dcca4d6e26e70e1c607f5d5ed7a42a75" => :x86_64_linux
+  end
