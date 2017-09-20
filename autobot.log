@@ -1,12 +1,8 @@
-==> Installing dependencies for angular-cli: node
-==> Installing angular-cli dependency: node
-==> Downloading https://linuxbrew.bintray.com/bottles/node-8.5.0.x86_64_linux.bottle.tar.gz
-==> Pouring node-8.5.0.x86_64_linux.bottle.tar.gz
-==> Caveats
-Bash completion has been installed to:
-  /home/linuxbrew/.linuxbrew/etc/bash_completion.d
-
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/node/8.5.0: 4,151 files, 48.8MB
-==> Installing angular-cli
-==> Downloading https://registry.npmjs.org/@angular/cli/-/cli-1.4.2.tgz
+==> Determining sdl bottle rebuild...
+==> Bottling sdl-1.2.15.x86_64_linux.bottle.4.tar.gz...
+./sdl-1.2.15.x86_64_linux.bottle.4.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 4
+    sha256 "880e20b9bec8ae73194d8ca42521926d755358e49f4d3113e2462a7735aa968f" => :x86_64_linux
+  end
