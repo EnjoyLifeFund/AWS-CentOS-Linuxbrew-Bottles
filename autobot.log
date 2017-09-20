@@ -1,26 +1,16 @@
-==> Installing dependencies for ant: jdk
-==> Installing ant dependency: jdk
-==> Downloading https://linuxbrew.bintray.com/bottles/jdk-1.8.0-144.x86_64_linux.bottle.tar.gz
-==> Pouring jdk-1.8.0-144.x86_64_linux.bottle.tar.gz
+==> Downloading http://www.winfield.demon.nl/linux/antiword-0.37.tar.gz
+==> make CC=gcc-5 LD=gcc-5 CFLAGS= -DNDEBUG GLOBAL_INSTALL_DIR=/home/linuxbrew/.linuxbrew/Cellar/antiword/0.37/bin GLOBAL_RESOURCES_DIR=/home/linuxbrew/.linuxbrew/Cellar/antiword/0.37/share/antiword
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall antiword`
 ==> Caveats
-By installing and using JDK you agree to the
-Oracle Binary Code License Agreement for the Java SE Platform Products and JavaFX
-http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+You can install mapping files in ~/.antiword
 
 ==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/jdk/1.8.0-144: 1,628 files, 360.7MB
-==> Installing ant
-==> Downloading https://www.apache.org/dyn/closer.cgi?path=ant/binaries/apache-ant-1.10.1-bin.tar.xz
-==> Best Mirror http://mirror.stjschools.org/public/apache/ant/binaries/apache-ant-1.10.1-bin.tar.xz
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall ant`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ant/1.10.1: 1,628 files, 36.9MB, built in 5 seconds
-==> Determining ant bottle rebuild...
-==> Bottling ant-1.10.1.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if ant-1.10.1.x86_64_linux.bottle.1.tar.gz is relocatable...
-./ant-1.10.1.x86_64_linux.bottle.1.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/antiword/0.37: 40 files, 654.7KB, built in 11 seconds
+==> Determining antiword bottle rebuild...
+==> Bottling antiword-0.37.x86_64_linux.bottle.1.tar.gz...
+./antiword-0.37.x86_64_linux.bottle.1.tar.gz
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "d898140a23e45c4f80e4a8282b7aa384dcca4d6e26e70e1c607f5d5ed7a42a75" => :x86_64_linux
+    sha256 "cc90c4bb1757a8ef9d24a34cf43c3c7f8c2f3c409ba7ef2162b5b49f002b3146" => :x86_64_linux
   end
