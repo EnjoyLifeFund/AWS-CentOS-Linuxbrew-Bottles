@@ -1,15 +1,18 @@
-==> Downloading https://github.com/potassco/clasp/archive/v3.3.2.tar.gz
-==> Downloading from https://codeload.github.com/potassco/clasp/tar.gz/v3.3.2
-==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clasp/3.3.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
-==> make install
+==> Downloading https://github.com/conformal/clens/archive/CLENS_0_7_0.tar.gz
+==> Downloading from https://codeload.github.com/conformal/clens/tar.gz/CLENS_0_7_0
+==> Downloading https://github.com/conformal/clens/commit/83648cc9027d9f76a1bc79ddddcbed1349b9d5cd.diff?full_index=1
+==> Patching
+==> Applying 83648cc9027d9f76a1bc79ddddcbed1349b9d5cd.diff
+patching file config/Makefile.darwin
+patching file include/clens/clens.h
+==> make all install LOCALBASE=/home/linuxbrew/.linuxbrew/Cellar/clens/0.7.0
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clasp`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clasp/3.3.2: 8 files, 5.5MB, built in 55 minutes 59 seconds
-==> Determining clasp bottle rebuild...
-==> Bottling clasp-3.3.2.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if clasp-3.3.2.x86_64_linux.bottle.1.tar.gz is relocatable...
-./clasp-3.3.2.x86_64_linux.bottle.1.tar.gz
+You can run it manually using `brew postinstall clens`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clens/0.7.0: 8 files, 123.8KB, built in 6 seconds
+==> Determining clens bottle rebuild...
+==> Bottling clens-0.7.0.x86_64_linux.bottle.1.tar.gz...
+./clens-0.7.0.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "8d9da805d9f8faab27f99811f0af7e240d6bffd5167f76cb2a3b009c711edff8" => :x86_64_linux
+    sha256 "ab02496159c8a98b789c76cfbb52bf6938cae666cfe37c403119428f9a8fcdb7" => :x86_64_linux
   end
