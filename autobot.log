@@ -1,18 +1,8 @@
-==> Downloading https://github.com/conformal/clens/archive/CLENS_0_7_0.tar.gz
-==> Downloading from https://codeload.github.com/conformal/clens/tar.gz/CLENS_0_7_0
-==> Downloading https://github.com/conformal/clens/commit/83648cc9027d9f76a1bc79ddddcbed1349b9d5cd.diff?full_index=1
-==> Patching
-==> Applying 83648cc9027d9f76a1bc79ddddcbed1349b9d5cd.diff
-patching file config/Makefile.darwin
-patching file include/clens/clens.h
-==> make all install LOCALBASE=/home/linuxbrew/.linuxbrew/Cellar/clens/0.7.0
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall clens`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/clens/0.7.0: 8 files, 123.8KB, built in 6 seconds
-==> Determining clens bottle rebuild...
-==> Bottling clens-0.7.0.x86_64_linux.bottle.1.tar.gz...
-./clens-0.7.0.x86_64_linux.bottle.1.tar.gz
+==> Determining ninja bottle rebuild...
+==> Bottling ninja-1.7.2.x86_64_linux.bottle.1.tar.gz...
+./ninja-1.7.2.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "ab02496159c8a98b789c76cfbb52bf6938cae666cfe37c403119428f9a8fcdb7" => :x86_64_linux
+    sha256 "a5ec99303e86b976763994f576da093a62f2e3a1858f64ed3efbbba449e87b0b" => :x86_64_linux
   end
