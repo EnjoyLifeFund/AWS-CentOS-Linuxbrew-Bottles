@@ -1,16 +1,10 @@
-==> Downloading https://github.com/google/closure-linter/archive/v2.3.19.tar.gz
-==> Downloading from https://codeload.github.com/google/closure-linter/tar.gz/v2.3.19
-==> Downloading https://pypi.python.org/packages/source/p/python-gflags/python-gflags-2.0.tar.gz
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/closure-linter/2.3.19/libexec --single-version-externally-managed --record=installed.txt
-==> python -c import setuptools... --no-user-cfg install --prefix=/home/linuxbrew/.linuxbrew/Cellar/closure-linter/2.3.19/libexec --single-version-externally-managed --record=installed.txt
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall closure-linter`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/closure-linter/2.3.19: 134 files, 1.2MB, built in 5 seconds
-==> Determining closure-linter bottle rebuild...
-==> Bottling closure-linter-2.3.19.x86_64_linux.bottle.1.tar.gz...
-./closure-linter-2.3.19.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    cellar :any_skip_relocation
-    rebuild 1
-    sha256 "9f33f112c6916bc0c4f4b79b0e09d14c26d0b6874d219b31fd81f98b4cd38400" => :x86_64_linux
-  end
+==> Downloading https://ec2-downloads.s3.amazonaws.com/CloudWatch-2010-08-01.zip
+==> Caveats
+Before you can use these tools you must export some variables to your $SHELL.
+  export AWS_ACCESS_KEY="<Your AWS Access ID>"
+  export AWS_SECRET_KEY="<Your AWS Secret Key>"
+  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+
+==> Summary
+🍺  /home/linuxbrew/.linuxbrew/Cellar/cloud-watch/1.0.20.0: 60 files, 6.9MB, built in 10 seconds
+This formula doesn't require compiling.
