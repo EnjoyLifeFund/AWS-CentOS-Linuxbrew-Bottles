@@ -1,8 +1,15 @@
-==> Determining systemd bottle rebuild...
-==> Bottling systemd-234.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if systemd-234.x86_64_linux.bottle.1.tar.gz is relocatable...
-./systemd-234.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://github.com/potassco/clasp/archive/v3.3.2.tar.gz
+==> Downloading from https://codeload.github.com/potassco/clasp/tar.gz/v3.3.2
+==> cmake . -DCMAKE_C_FLAGS_RELEASE=-DNDEBUG -DCMAKE_CXX_FLAGS_RELEASE=-DNDEBUG -DCMAKE_INSTALL_PREFIX=/home/linuxbrew/.linuxbrew/Cellar/clasp/3.3.2 -DCMAKE_BUILD_TYPE=Release -DCMAKE_FIND_FRAMEWORK=LAST -DCMAKE_VERBOSE_MAKEFILE=ON -Wno-dev
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall clasp`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/clasp/3.3.2: 8 files, 5.5MB, built in 55 minutes 59 seconds
+==> Determining clasp bottle rebuild...
+==> Bottling clasp-3.3.2.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if clasp-3.3.2.x86_64_linux.bottle.1.tar.gz is relocatable...
+./clasp-3.3.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "67902dce49d9faaad41d3abcb4c2801f35a13c50f9f82467be8374cef56caeab" => :x86_64_linux
+    sha256 "8d9da805d9f8faab27f99811f0af7e240d6bffd5167f76cb2a3b009c711edff8" => :x86_64_linux
   end
