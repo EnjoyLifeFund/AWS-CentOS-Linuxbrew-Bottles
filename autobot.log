@@ -1,3 +1,8 @@
-==> Downloading https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/ppss/ppss-2.97.tgz
-🍺  /home/linuxbrew/.linuxbrew/Cellar/ppss/2.97: 3 files, 85.9KB, built in 10 seconds
-This formula doesn't require compiling.
+==> Determining json-c bottle rebuild...
+==> Bottling json-c-0.12.1.x86_64_linux.bottle.1.tar.gz...
+./json-c-0.12.1.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    cellar :any_skip_relocation
+    rebuild 1
+    sha256 "21a0169d3067d66a0edfb586830e256837e194dbb5a06f57bd5c85d44c79a611" => :x86_64_linux
+  end
