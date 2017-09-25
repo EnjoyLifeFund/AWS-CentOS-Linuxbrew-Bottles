@@ -1,29 +1,8 @@
-==> Auto-updated Homebrew!
-Updated 1 tap (homebrew/core).
-==> Updated Formulae
-coffeescript
-cppad
-faac
-faad2
-faas-cli
-freetds
-go@1.4
-gprof2dot
-help2man
-jsonschema2pojo
-libhttpseverywhere
-spigot
-svtplay-dl
-weechat
-xa
-yle-dl
-youtube-dl
-
-==> Determining gcc bottle rebuild...
-==> Bottling gcc-5.4.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if gcc-5.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./gcc-5.4.0.x86_64_linux.bottle.1.tar.gz
+==> Determining util-linux bottle rebuild...
+==> Bottling util-linux-2.30.1.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if util-linux-2.30.1.x86_64_linux.bottle.1.tar.gz is relocatable...
+./util-linux-2.30.1.x86_64_linux.bottle.1.tar.gz
   bottle do
     rebuild 1
-    sha256 "cb7e783b9b15dba4e10cdfda170832fbdaa178cdf39c21a628a44903aa6ee352" => :x86_64_linux
+    sha256 "3de17eafe3444a89f487416603c8670e98c0560645a3fd87f47449cd30a4b125" => :x86_64_linux
   end
