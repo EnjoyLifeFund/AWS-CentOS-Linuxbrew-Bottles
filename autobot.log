@@ -1,14 +1,9 @@
-==> Downloading http://nixos.org/releases/patchelf/patchelf-0.9/patchelf-0.9.tar.gz
-==> Downloading from https://nixos.org/releases/patchelf/patchelf-0.9/patchelf-0.9.tar.gz
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/patchelf/0.9_1 CXXFLAGS=-static-libgcc -static-libstdc++ --disable-silent-rules
-==> make install
-==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall patchelf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/patchelf/0.9_1: 7 files, 1.3MB, built in 8 seconds
-==> Determining patchelf bottle rebuild...
-==> Bottling patchelf-0.9_1.x86_64_linux.bottle.1.tar.gz...
-./patchelf-0.9_1.x86_64_linux.bottle.1.tar.gz
+==> Determining nasm bottle rebuild...
+==> Bottling nasm-2.13.01.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if nasm-2.13.01.x86_64_linux.bottle.1.tar.gz is relocatable...
+./nasm-2.13.01.x86_64_linux.bottle.1.tar.gz
   bottle do
+    cellar :any_skip_relocation
     rebuild 1
-    sha256 "7527f803612083e3f7252bad8f0415060e67aca8e352bb66c42dc214b0d0c027" => :x86_64_linux
+    sha256 "abcc489dab0b26876d314704c2a372af9de2a58098665ac6d5ef6d9079e420b1" => :x86_64_linux
   end
