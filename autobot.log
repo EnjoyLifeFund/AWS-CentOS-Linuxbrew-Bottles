@@ -1,8 +1,1 @@
-==> Determining glib bottle rebuild...
-==> Bottling glib-2.54.0.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if glib-2.54.0.x86_64_linux.bottle.1.tar.gz is relocatable...
-./glib-2.54.0.x86_64_linux.bottle.1.tar.gz
-  bottle do
-    rebuild 1
-    sha256 "db0ca2e0be94bb28776b88cdefc7ff04344ca0ada4c415511df887e16165559b" => :x86_64_linux
-  end
+This formula doesn't require compiling.
