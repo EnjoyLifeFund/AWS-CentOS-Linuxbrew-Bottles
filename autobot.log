@@ -1,10 +1,29 @@
-==> Downloading https://ec2-downloads.s3.amazonaws.com/CloudWatch-2010-08-01.zip
-==> Caveats
-Before you can use these tools you must export some variables to your $SHELL.
-  export AWS_ACCESS_KEY="<Your AWS Access ID>"
-  export AWS_SECRET_KEY="<Your AWS Secret Key>"
-  export AWS_CREDENTIAL_FILE="<Path to the credentials file>"
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+coffeescript
+cppad
+faac
+faad2
+faas-cli
+freetds
+go@1.4
+gprof2dot
+help2man
+jsonschema2pojo
+libhttpseverywhere
+spigot
+svtplay-dl
+weechat
+xa
+yle-dl
+youtube-dl
 
-==> Summary
-🍺  /home/linuxbrew/.linuxbrew/Cellar/cloud-watch/1.0.20.0: 60 files, 6.9MB, built in 10 seconds
-This formula doesn't require compiling.
+==> Determining gcc bottle rebuild...
+==> Bottling gcc-5.4.0.x86_64_linux.bottle.1.tar.gz...
+==> Detecting if gcc-5.4.0.x86_64_linux.bottle.1.tar.gz is relocatable...
+./gcc-5.4.0.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "cb7e783b9b15dba4e10cdfda170832fbdaa178cdf39c21a628a44903aa6ee352" => :x86_64_linux
+  end
