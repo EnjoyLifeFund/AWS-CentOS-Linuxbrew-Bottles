@@ -1,1 +1,7 @@
-This formula doesn't require compiling.
+==> Determining flex bottle rebuild...
+==> Bottling flex-2.6.4.x86_64_linux.bottle.1.tar.gz...
+./flex-2.6.4.x86_64_linux.bottle.1.tar.gz
+  bottle do
+    rebuild 1
+    sha256 "7f4927a1d0d962bf05faf9405181f3682e8136a547fc3978da6d8d9dc0ab812f" => :x86_64_linux
+  end
