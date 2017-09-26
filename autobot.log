@@ -1,9 +1,16 @@
-==> Determining nasm bottle rebuild...
-==> Bottling nasm-2.13.01.x86_64_linux.bottle.1.tar.gz...
-==> Detecting if nasm-2.13.01.x86_64_linux.bottle.1.tar.gz is relocatable...
-./nasm-2.13.01.x86_64_linux.bottle.1.tar.gz
+==> Downloading https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
+A checksum was not provided for this resource
+For your reference the SHA256 is: 954bd69b391edc12d6a4a51a2dd1476543da5c6bbf05a95b59dc0dd6fd4c2969
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/autoconf/2.69 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/autoconf/2.69/share/emacs/site-lisp/autoconf
+==> make install
+==> Not running post_install as we're building a bottle
+You can run it manually using `brew postinstall autoconf`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/autoconf/2.69: 67 files, 3.0MB, built in 40 seconds
+==> Determining autoconf bottle rebuild...
+==> Bottling autoconf-2.69.x86_64_linux.bottle.5.tar.gz...
+./autoconf-2.69.x86_64_linux.bottle.5.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 1
-    sha256 "abcc489dab0b26876d314704c2a372af9de2a58098665ac6d5ef6d9079e420b1" => :x86_64_linux
+    rebuild 5
+    sha256 "55946e9468087ea768e3a30486e1160ac9c8b0ddb98b72df17e81671cfcb88ea" => :x86_64_linux
   end
