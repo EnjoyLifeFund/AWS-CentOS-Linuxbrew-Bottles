@@ -1,16 +1,20 @@
-==> Downloading https://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz
-A checksum was not provided for this resource
-For your reference the SHA256 is: 954bd69b391edc12d6a4a51a2dd1476543da5c6bbf05a95b59dc0dd6fd4c2969
-==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/autoconf/2.69 --with-lispdir=/home/linuxbrew/.linuxbrew/Cellar/autoconf/2.69/share/emacs/site-lisp/autoconf
+==> Upgrading 1 outdated package, with result:
+libatomic_ops 7.6.2
+==> Upgrading libatomic_ops 
+==> Downloading https://github.com/ivmai/libatomic_ops/releases/download/v7.6.2/libatomic_ops-7.6.2.tar.gz
+==> Downloading from https://github-production-release-asset-2e65be.s3.amazonaws.com/2103225/2a3a9176-e89e-11e7-9748-e9932e2f345a?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171226%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20171226T131047Z&X-Amz-Expires=300&X-Amz-Signature=b7f26bb9dce97693add06c12c8f594142a13fe5ff8c18c13a4d41cac390f785d&X-Amz-SignedHeaders=host&actor_id=0&response-content-disposition=attachment%3B%20filename%3Dlibatomic_ops-7.6.2.tar.gz&response-content-type=application%2Foctet-stream
+==> ./configure --prefix=/home/linuxbrew/.linuxbrew/Cellar/libatomic_ops/7.6.2
+==> make
+==> make check
 ==> make install
 ==> Not running post_install as we're building a bottle
-You can run it manually using `brew postinstall autoconf`
-🍺  /home/linuxbrew/.linuxbrew/Cellar/autoconf/2.69: 67 files, 3.0MB, built in 40 seconds
-==> Determining autoconf bottle rebuild...
-==> Bottling autoconf-2.69.x86_64_linux.bottle.5.tar.gz...
-./autoconf-2.69.x86_64_linux.bottle.5.tar.gz
+You can run it manually using `brew postinstall libatomic_ops`
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libatomic_ops/7.6.2: 82 files, 756.2KB, built in 4 minutes 47 seconds
+==> Determining libatomic_ops bottle rebuild...
+==> Bottling libatomic_ops-7.6.2.x86_64_linux.bottle.1.tar.gz...
+./libatomic_ops-7.6.2.x86_64_linux.bottle.1.tar.gz
   bottle do
     cellar :any_skip_relocation
-    rebuild 5
-    sha256 "55946e9468087ea768e3a30486e1160ac9c8b0ddb98b72df17e81671cfcb88ea" => :x86_64_linux
+    rebuild 1
+    sha256 "f1506f70da5a19efc9647480a8279d3eb661e94993e3f693d34668a898c52b74" => :x86_64_linux
   end
